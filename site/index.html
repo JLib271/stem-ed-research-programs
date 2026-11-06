@@ -37,6 +37,12 @@
   .faculty span { color: var(--muted); }
   .check { font-size: 0.8rem; color: var(--warn); }
   .meta { font-size: 0.78rem; color: var(--muted); margin-top: auto; padding-top: 6px; }
+  .meta details { display: inline; }
+  .meta summary { display: inline; cursor: pointer; color: var(--accent); text-decoration: underline; }
+  .meta summary::-webkit-details-marker { display: none; }
+  .meta details[open] > div { margin-top: 6px; font-size: 0.85rem; }
+  section.more h3 { font-size: 1rem; margin: 22px 0 6px; }
+  ul.steps { margin: 8px 0; padding-left: 22px; }
   .empty { padding: 30px; text-align: center; color: var(--muted); }
   section.more { background: var(--card); border-top: 1px solid var(--line); padding: 22px 0 30px; }
   section.more h2 { font-size: 1.1rem; margin: 0 0 8px; }
@@ -95,7 +101,7 @@
 </section>
 <section class="more" id="add" aria-labelledby="add-h">
   <div class="wrap">
-    <h2 id="add-h">Suggest a program</h2>
+    <h2 id="add-h">Suggest or update a program</h2>
     <p>Know a graduate program or research group in STEM+ education research that isn't here? Send these five details:</p>
     <ol class="steps">
       <li><strong>Institution</strong> and country</li>
@@ -108,12 +114,23 @@
       <a class="btn" id="mail-add" href="#">Email the details</a>
       <a class="btn secondary" href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=add_program.yml">Use the GitHub form</a>
     </p>
-    <p class="small">The email button opens a message with the five questions filled in. The GitHub form needs a free GitHub account. To correct or remove a listing, email us or use the <a href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=update_program.yml">update form</a>. Everything is reviewed before it appears.</p>
+    <p class="small">The email button opens a message with the five questions filled in. The GitHub form needs a free GitHub account.</p>
+    <h3>Update a listing</h3>
+    <p>Every program card has an <strong>Update this listing</strong> link. Use it to:</p>
+    <ul class="steps">
+      <li>correct a detail, such as a department or degree</li>
+      <li>confirm the listing is still correct</li>
+      <li>add a faculty member, or remove yourself</li>
+      <li>remove a program that no longer exists (programs not taking students stay listed)</li>
+    </ul>
+    <p>It offers the same two choices: an email that already contains the current listing, so you only edit what's wrong, or the <a href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=update_program.yml">GitHub update form</a>.</p>
+    <p class="small">Everything is reviewed before it appears.</p>
   </div>
 </section>
 <script>
 (function () {
   var state = { data: null };
+  var MAINTAINER = 'libarkin@msu.edu', REPO = 'https://github.com/JLib271/stem-ed-research-programs';
   var el = function (id) { return document.getElementById(id); };
   function text(tag, cls, value) { var n = document.createElement(tag); if (cls) n.className = cls; n.textContent = value; return n; }
   function fill(select, values, labels) {
@@ -158,7 +175,16 @@
       if (p.needs_check && p.needs_check.length) {
         card.appendChild(text('div', 'check', 'To be confirmed: ' + p.needs_check.join(', ').replace(/_/g, ' ')));
       }
-      card.appendChild(text('div', 'meta', 'Last confirmed ' + p.last_verified));
+      var meta = document.createElement('div'); meta.className = 'meta';
+      meta.appendChild(document.createTextNode('Last confirmed ' + p.last_verified + ' · '));
+      var upd = document.createElement('details'); upd.className = 'upd';
+      upd.appendChild(text('summary', '', 'Update this listing'));
+      var opts = document.createElement('div');
+      var m = text('a', '', 'Email a correction'); m.href = updateMail(p);
+      var g = text('a', '', 'Use the GitHub form'); g.href = updateIssue(p); g.rel = 'noopener';
+      opts.appendChild(m); opts.appendChild(document.createTextNode(' · ')); opts.appendChild(g);
+      upd.appendChild(opts); meta.appendChild(upd);
+      card.appendChild(meta);
       list.appendChild(card);
     });
   }
@@ -171,6 +197,24 @@
       last = re.lastIndex;
     }
     parent.appendChild(document.createTextNode(s.slice(last)));
+  }
+  function listingText(p) {
+    var d = state.data;
+    return ['Institution: ' + p.institution.name + ', ' + p.institution.country,
+      'Home department: ' + p.home_department,
+      'Degrees: ' + p.degree_types.join(', '),
+      'Discipline: ' + p.disciplines.map(function (x) { return d.disciplines[x] || x; }).join(', '),
+      'Education research faculty: ' + p.faculty.map(function (f) { return f.name; }).join(', '),
+      'Web page: ' + (p.url || '(none)')].join('\n');
+  }
+  function updateMail(p) {
+    var body = 'Listing: ' + p.id + '\n\nWhat would you like to do? (correct a detail / confirm it is still correct / add or remove a faculty member / remove the program because it no longer exists)\n\n' +
+      'Current listing (edit anything that is wrong):\n\n' + listingText(p) + '\n\nHow you know (e.g., I am faculty there):\n';
+    return 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('Update a listing: ' + p.institution.name) + '&body=' + encodeURIComponent(body);
+  }
+  function updateIssue(p) {
+    return REPO + '/issues/new?template=update_program.yml&title=' + encodeURIComponent('Update: ' + p.institution.name) +
+      '&program=' + encodeURIComponent(p.id) + '&details=' + encodeURIComponent('Current listing:\n\n' + listingText(p) + '\n\nWhat should change:\n');
   }
   function renderNotice(disc) {
     var box = el('notice'); box.innerHTML = '';
@@ -229,7 +273,7 @@
     var body = ['Institution and country:', 'Home department:', 'Degrees (e.g., MS, PhD):',
       'Discipline (' + Object.keys(d.disciplines).map(function (x) { return d.disciplines[x]; }).join(', ') + '):',
       'Education research faculty (who agree to be listed):', 'Program or group web page (optional):', 'How you know this (e.g., I am faculty there):'].join('\n\n');
-    el('mail-add').href = 'mailto:libarkin@msu.edu?subject=' + encodeURIComponent('Add a program: STEM+ Education Research Graduate Programs') + '&body=' + encodeURIComponent(body + '\n');
+    el('mail-add').href = 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('Add a program: STEM+ Education Research Graduate Programs') + '&body=' + encodeURIComponent(body + '\n');
     fill(el('degree'), order.filter(function (x) { return degs[x]; }));
     fill(el('country'), Object.keys(ctrys).sort());
     ['q', 'discipline', 'degree', 'country'].forEach(function (id) { el(id).addEventListener('input', render); });

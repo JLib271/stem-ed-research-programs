@@ -81,6 +81,9 @@ Know of another list, or maintain one? [Open an issue](../../issues/new/choose) 
 
 ## Add or update a program
 
+* **On the website:** use **Suggest a program**, or the **Update this listing** link on any
+  program card. Both offer a prefilled email (no GitHub account needed) or the GitHub form.
+  The update email already contains the current listing, so you only edit what's wrong.
 * **No GitHub account?** Email the maintainer (see below) with the five fields.
 * **With a GitHub account:** use the [Add a program](../../issues/new?template=add_program.yml)
   or [Update a program](../../issues/new?template=update_program.yml) form, or open a
