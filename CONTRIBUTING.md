@@ -61,11 +61,21 @@ Anyone can ask to be removed or corrected.
 
 ```bash
 pip install -r requirements.txt
-python scripts/build.py          # validates every file and regenerates the README table
-python scripts/build.py --check  # what CI runs
+python scripts/build.py --validate  # checks every program file
+python scripts/build.py             # also regenerates the README tables
 ```
 
-Commit the regenerated `README.md` with your change.
+You don't need to update the README yourself: after a change reaches `main`, a workflow
+regenerates the README tables and commits them. This includes edits made in the browser.
+
+## Handling a request (maintainers)
+
+1. Open the program's file in `programs/` and click the pencil icon to edit it.
+2. Change only what the request asks for, and set `last_verified` to today's date.
+3. Commit to `main` with a message ending in `Closes #<issue number>`. The issue closes,
+   the README updates, and the website republishes on their own.
+
+To add a program, use **Add file → Create new file** in `programs/` and copy an existing file's layout.
 
 ## Lists maintained elsewhere
 

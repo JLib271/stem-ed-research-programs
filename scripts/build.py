@@ -2,7 +2,8 @@
 """Validate every program file and build the README table and the website data.
 
     python scripts/build.py           # validate, then write README.md table and site/programs.json
-    python scripts/build.py --check   # validate and fail if README.md is out of date (used in CI)
+    python scripts/build.py --check   # validate and fail if README.md is out of date
+    python scripts/build.py --validate  # only check the program files and other-lists.yml
 """
 from __future__ import annotations
 
@@ -148,6 +149,9 @@ def main() -> int:
         for e in errors:
             print(f"  - {e}")
         return 1
+    if "--validate" in sys.argv:
+        print(f"OK: {len(programs)} programs valid.")
+        return 0
     new_readme = updated_readme(programs, other_lists)
     if "--check" in sys.argv:
         if new_readme != README.read_text(encoding="utf-8"):

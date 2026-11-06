@@ -1,12 +1,17 @@
 name: Validate programs
 
+# Pull requests: check every program file and other-lists.yml.
+# Pushes to main (including edits made in the browser): check them, then
+# regenerate the README tables and commit them if they changed, so nobody
+# has to update the README by hand.
+
 on:
   pull_request:
   push:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
@@ -17,5 +22,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: Check every program file and the README table
-        run: python scripts/build.py --check
+      - name: Check every program file
+        run: python scripts/build.py --validate
+      - name: Update the README tables
+        if: github.event_name == 'push'
+        run: |
+          python scripts/build.py
+          if git diff --quiet -- README.md; then
+            echo "README.md is already up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Update README tables from program files"
+            git push
+          fi
