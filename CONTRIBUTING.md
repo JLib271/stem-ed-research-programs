@@ -9,6 +9,9 @@ research on teaching and learning in a STEM discipline, usually supervised by fa
 science, engineering, or mathematics department, college, or institute. Programs in schools of
 education qualify when a named faculty member supervises DBER students in a specific discipline.
 
+Include programs and research groups whether or not they are taking students right now.
+Remove a program only when it no longer exists, not when it stops admitting students.
+
 List one program per institution and discipline. If one department offers DBER in two
 disciplines, list both in the same file's `disciplines`.
 
@@ -66,5 +69,5 @@ Commit the regenerated `README.md` with your change.
 
 The searchable website in `site/` is built and published by `.github/workflows/pages.yml`.
 To turn it on: in the repository's **Settings → Pages**, set **Source** to **GitHub Actions**.
-The site appears at `https://<owner>.github.io/<repository>/` after the next push to `main`.
-Then replace the placeholder link at the top of the README.
+The site appears at https://jlib271.github.io/dber-graduate-programs/ after the next push to `main`
+(or run the workflow by hand from the Actions tab).

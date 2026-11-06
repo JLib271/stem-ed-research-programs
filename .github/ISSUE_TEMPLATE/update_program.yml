@@ -18,7 +18,7 @@ body:
         - The listing is still correct (confirm it)
         - Correct a detail
         - Add or remove a faculty member
-        - Remove the program (no longer offered)
+        - Remove the program (no longer exists; programs not taking students stay listed)
     validations:
       required: true
   - type: textarea

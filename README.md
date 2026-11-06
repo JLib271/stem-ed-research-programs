@@ -7,7 +7,12 @@ a college of science or engineering.
 
 Many of these programs sit inside science and engineering departments, so they are
 hard to find by searching for "STEM education." This list brings them together in
-one place, with five facts for each program:
+one place.
+
+It lists programs and research groups whether or not they are taking students right now.
+Being listed does not mean a group has openings, so ask the faculty directly.
+
+Each program records five things:
 
 | Field | What it records |
 |---|---|
@@ -17,7 +22,7 @@ one place, with five facts for each program:
 | **Discipline** | Astronomy, biology, chemistry, computer science, engineering, geoscience, mathematics, physics, statistics, or interdisciplinary STEM |
 | **DBER faculty** | Faculty who supervise education research students |
 
-🔎 **Search and filter the list:** _website link to be added once GitHub Pages is turned on (see [CONTRIBUTING.md](CONTRIBUTING.md#publishing-the-website))._
+🔎 **Search and filter the list:** https://jlib271.github.io/dber-graduate-programs/
 
 ## Programs
 
