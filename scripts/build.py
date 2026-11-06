@@ -21,6 +21,8 @@ DISCIPLINES = json.loads((ROOT / "schema" / "disciplines.json").read_text(encodi
 README = ROOT / "README.md"
 SITE_DATA = ROOT / "site" / "programs.json"
 START, END = "<!-- programs:start -->", "<!-- programs:end -->"
+OTHER_START, OTHER_END = "<!-- other-lists:start -->", "<!-- other-lists:end -->"
+OTHER_LISTS = ROOT / "other-lists.yml"
 
 
 def _plain(value):
@@ -67,6 +69,28 @@ def load_programs() -> tuple[list[dict], list[str]]:
     return programs, errors
 
 
+def load_other_lists() -> tuple[list[dict], list[str]]:
+    entries = yaml.safe_load(OTHER_LISTS.read_text(encoding="utf-8")) or []
+    errors = []
+    for i, e in enumerate(entries, 1):
+        has_list = all(e.get(k) for k in ("title", "url", "maintainer"))
+        if not e.get("field") or not (has_list or e.get("note")):
+            errors.append(f"other-lists.yml entry {i}: needs a field, and either title, url and maintainer, or a note")
+        elif has_list and not str(e["url"]).startswith(("http://", "https://")):
+            errors.append(f"other-lists.yml entry {i}: url must start with http:// or https://")
+    return entries, errors
+
+
+def other_lists_table(entries: list[dict]) -> str:
+    rows = ["| Field | List | Maintained by |", "|---|---|---|"]
+    for e in entries:
+        if e.get("url"):
+            rows.append(f"| {_md(e['field'])} | [{_md(e['title'])}]({e['url']}) | {_md(e['maintainer'])} |")
+        else:
+            rows.append(f"| {_md(e['field'])} | {_md(' '.join(e['note'].split()))} | |")
+    return f"{OTHER_START}\n_Generated from `other-lists.yml` by `scripts/build.py`._\n\n" + "\n".join(rows) + f"\n{OTHER_END}"
+
+
 def _md(text: str) -> str:
     return text.replace("|", "\\|")
 
@@ -91,39 +115,47 @@ def readme_table(programs: list[dict]) -> str:
            + "\n".join(rows) + f"\n{END}"
 
 
-def updated_readme(programs: list[dict]) -> str:
+def _replace_between(text: str, start: str, end: str, new: str) -> str:
+    before, rest = text.split(start, 1)
+    _, after = rest.split(end, 1)
+    return before + new + after
+
+
+def updated_readme(programs: list[dict], other_lists: list[dict]) -> str:
     text = README.read_text(encoding="utf-8")
-    before, rest = text.split(START, 1)
-    _, after = rest.split(END, 1)
-    return before + readme_table(programs) + after
+    text = _replace_between(text, START, END, readme_table(programs))
+    return _replace_between(text, OTHER_START, OTHER_END, other_lists_table(other_lists))
 
 
-def site_data(programs: list[dict]) -> dict:
+def site_data(programs: list[dict], other_lists: list[dict]) -> dict:
     return {
         "generated": dt.date.today().isoformat(),
         "disciplines": DISCIPLINES,
+        "other_lists": [{**e, "note": " ".join(e["note"].split())} if e.get("note") else e for e in other_lists],
         "programs": sorted(programs, key=lambda r: (r["institution"]["name"], r["id"])),
     }
 
 
 def main() -> int:
     programs, errors = load_programs()
+    other_lists, other_errors = load_other_lists()
+    errors += other_errors
     if errors:
         print(f"{len(errors)} problem(s):")
         for e in errors:
             print(f"  - {e}")
         return 1
-    new_readme = updated_readme(programs)
+    new_readme = updated_readme(programs, other_lists)
     if "--check" in sys.argv:
         if new_readme != README.read_text(encoding="utf-8"):
-            print("README.md table is out of date: run python scripts/build.py and commit the result.")
+            print("README.md tables are out of date: run python scripts/build.py and commit the result.")
             return 1
         print(f"OK: {len(programs)} programs valid; README.md is up to date.")
         return 0
     README.write_text(new_readme, encoding="utf-8")
     SITE_DATA.parent.mkdir(exist_ok=True)
-    SITE_DATA.write_text(json.dumps(site_data(programs), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"OK: {len(programs)} programs valid; wrote README.md table and {SITE_DATA.relative_to(ROOT)}.")
+    SITE_DATA.write_text(json.dumps(site_data(programs, other_lists), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"OK: {len(programs)} programs valid; wrote README.md tables and {SITE_DATA.relative_to(ROOT)}.")
     return 0
 
 

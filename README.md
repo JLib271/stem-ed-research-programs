@@ -64,14 +64,18 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 Other communities keep their own lists. Until their programs are added here,
 use these:
 
-| Discipline | List | Maintained by |
+<!-- other-lists:start -->
+_Generated from `other-lists.yml` by `scripts/build.py`._
+
+| Field | List | Maintained by |
 |---|---|---|
 | Biology | [Graduate Programs in Biology Education Research](https://saberbio.wildapricot.org/Graduate-Programs-in-BER) | Society for the Advancement of Biology Education Research (SABER) |
 | Chemistry | [Chemistry Education Research Graduate Programs](https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs) | Stacey Lowery Bretz, Miami University |
 | Physics | [PER Programs](https://www.per-central.org/programs/) | PER Central (programs register themselves) |
-| Mathematics | No public list found yet. Lists of programs in research in undergraduate mathematics education (RUME) are shared on the [RUME mailing list](https://groups.google.com/g/rume_list). | RUME community |
+| Mathematics | No public list found yet. Lists of programs in research in undergraduate mathematics education (RUME) are shared on the [RUME mailing list](https://groups.google.com/g/rume_list). | |
 | Engineering | No public list found yet. | |
 | Medicine and health professions | No maintained list found yet. FAIMER's directory of health professions education master's and PhD programs is no longer maintained. [Kulo and Cestone (2022)](https://doi.org/10.1186/s12909-022-03937-z) describe 20 doctoral programs in the US and Canada. | |
+<!-- other-lists:end -->
 
 Know of another list, or maintain one? [Open an issue](../../issues/new/choose) so we can link to it.
 

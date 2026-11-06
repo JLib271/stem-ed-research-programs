@@ -42,6 +42,13 @@
   section.more h2 { font-size: 1.1rem; margin: 0 0 8px; }
   section.more ul { margin: 0; padding-left: 20px; }
   a { color: var(--accent); }
+  section.more + section.more { padding-top: 0; border-top: 0; }
+  section.more ul.other { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 10px; }
+  ul.other li { display: grid; grid-template-columns: 220px 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+  ul.other .field { font-weight: 600; }
+  ul.other .by { color: var(--muted); font-size: 0.88rem; }
+  .small { font-size: 0.9rem; color: var(--muted); }
+  @media (max-width: 760px) { ul.other li { grid-template-columns: 1fr; gap: 2px; } }
   @media (max-width: 760px) { .controls { grid-template-columns: 1fr 1fr; } .controls .search { grid-column: 1 / -1; } }
 </style>
 </head>
@@ -66,10 +73,18 @@
   <p id="count" aria-live="polite"></p>
   <div id="list" class="grid"></div>
 </main>
+<section class="more" aria-labelledby="other-h">
+  <div class="wrap">
+    <h2 id="other-h">Lists maintained elsewhere</h2>
+    <p>Other communities keep their own lists. Until their programs are added here, use these.</p>
+    <ul id="other" class="other"></ul>
+    <p class="small">Know of another list, or maintain one? <a href="https://github.com/JLib271/stem-ed-research-programs/issues/new/choose">Let us know</a>.</p>
+  </div>
+</section>
 <section class="more">
   <div class="wrap">
     <h2>Add or update a program</h2>
-    <p>The list lives on <a id="repo" href="https://github.com/JLib271/stem-ed-research-programs">GitHub</a>. Use the add or update form there, or email the maintainer if you don't have a GitHub account. Other DBER communities keep their own lists. The GitHub page links to them.</p>
+    <p>The list lives on <a id="repo" href="https://github.com/JLib271/stem-ed-research-programs">GitHub</a>. Use the add or update form there, or email the maintainer if you don't have a GitHub account.</p>
   </div>
 </section>
 <script>
@@ -119,8 +134,32 @@
       list.appendChild(card);
     });
   }
+  function withLinks(parent, s) {
+    // Turn [text](https://...) in a note into links; everything else stays plain text.
+    var re = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, last = 0, m;
+    while ((m = re.exec(s))) {
+      parent.appendChild(document.createTextNode(s.slice(last, m.index)));
+      var a = text('a', '', m[1]); a.href = m[2]; a.rel = 'noopener'; parent.appendChild(a);
+      last = re.lastIndex;
+    }
+    parent.appendChild(document.createTextNode(s.slice(last)));
+  }
+  function renderOther(lists) {
+    var ul = el('other');
+    (lists || []).forEach(function (e) {
+      var li = document.createElement('li');
+      li.appendChild(text('div', 'field', e.field));
+      var body = document.createElement('div');
+      if (e.url) {
+        var a = text('a', '', e.title); a.href = e.url; a.rel = 'noopener'; body.appendChild(a);
+        body.appendChild(text('div', 'by', 'Maintained by ' + e.maintainer));
+      } else { withLinks(body, e.note); }
+      li.appendChild(body); ul.appendChild(li);
+    });
+  }
   fetch('programs.json').then(function (r) { return r.json(); }).then(function (d) {
     state.data = d;
+    renderOther(d.other_lists);
     var discs = {}, degs = {}, ctrys = {};
     d.programs.forEach(function (p) {
       p.disciplines.forEach(function (x) { discs[x] = 1; });

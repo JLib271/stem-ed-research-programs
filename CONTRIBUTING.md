@@ -67,6 +67,11 @@ python scripts/build.py --check  # what CI runs
 
 Commit the regenerated `README.md` with your change.
 
+## Lists maintained elsewhere
+
+Links to other communities' lists live in `other-lists.yml`. `scripts/build.py` puts them in
+the README and on the website, so edit that file, not the README table.
+
 ## Keeping the list current
 
 * Each entry's `last_verified` date shows how fresh it is. When you confirm an entry, update the date.
