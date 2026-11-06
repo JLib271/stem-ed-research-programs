@@ -59,6 +59,12 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [Western Washington University](https://cse.wwu.edu/geology)<br><sub>United States</sub> | Geology Department, with Woodring College of Education | MS | Earth Science | Robyn Mieko Dahl, Sue DiBari, Scott Linneman |
 <!-- programs:end -->
 
+## Join the conversation
+
+Connect with STEM+ education researchers and practitioners on
+[STEMEd+ Commons](https://stemedplus.hcommons.org/), a free, open professional network for
+STEM+ education research and practice: join discussion groups and share your work.
+
 ## Lists maintained elsewhere
 
 Other communities keep their own lists. Until their programs are added here,
