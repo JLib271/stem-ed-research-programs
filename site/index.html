@@ -36,6 +36,7 @@
   .faculty { font-size: 0.92rem; }
   .faculty span { color: var(--muted); }
   .check { font-size: 0.8rem; color: var(--warn); }
+  .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .meta { font-size: 0.78rem; color: var(--muted); margin-top: auto; padding-top: 6px; }
   .meta details { display: inline; }
   .meta summary { display: inline; cursor: pointer; color: var(--accent); text-decoration: underline; }
@@ -187,6 +188,7 @@
       card.appendChild(meta);
       list.appendChild(card);
     });
+    markExternal(list);
   }
   function withLinks(parent, s) {
     // Turn [text](https://...) in a note into links; everything else stays plain text.
@@ -197,6 +199,13 @@
       last = re.lastIndex;
     }
     parent.appendChild(document.createTextNode(s.slice(last)));
+  }
+  // Links that leave the site open in a new tab; email links and in-page links don't.
+  function markExternal(root) {
+    (root || document).querySelectorAll('a[href^="http"]').forEach(function (a) {
+      a.target = '_blank'; a.rel = 'noopener noreferrer';
+      if (!a.querySelector('.vh')) { var s = document.createElement('span'); s.className = 'vh'; s.textContent = ' (opens in a new tab)'; a.appendChild(s); }
+    });
   }
   function listingText(p) {
     var d = state.data;
@@ -240,6 +249,7 @@
     }
     var more = document.createElement('p'), a2 = text('a', '', 'Suggest a program in ' + label); a2.href = '#add';
     more.appendChild(text('span', '', 'Know one? ')); more.appendChild(a2); box.appendChild(more);
+    markExternal(box);
     box.hidden = false;
   }
   function renderOther(lists) {
@@ -254,10 +264,12 @@
       } else { withLinks(body, e.note); }
       li.appendChild(body); ul.appendChild(li);
     });
+    markExternal(ul);
   }
   fetch('programs.json').then(function (r) { return r.json(); }).then(function (d) {
     state.data = d;
     renderOther(d.other_lists);
+    markExternal(document);
     var discs = {}, degs = {}, ctrys = {};
     d.programs.forEach(function (p) {
       p.disciplines.forEach(function (x) { discs[x] = 1; });
