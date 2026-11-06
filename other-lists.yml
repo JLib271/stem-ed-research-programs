@@ -1,31 +1,39 @@
 # Lists of programs maintained elsewhere. scripts/build.py puts these in the README
-# and on the website. Each entry: field, and either a list (title, url, maintainer)
-# or a note when no maintained list exists. Notes may link with [text](url).
+# and on the website. Each entry: field; disciplines (ids from schema/disciplines.json,
+# so the website can show the list when someone picks that discipline); and either a
+# list (title, url, maintainer) or a note when no maintained list exists.
+# Notes may link with [text](url).
 
 - field: Biology
+  disciplines: [bioscience]
   title: Graduate Programs in Biology Education Research
   url: https://saberbio.wildapricot.org/Graduate-Programs-in-BER
   maintainer: Society for the Advancement of Biology Education Research (SABER)
 
 - field: Chemistry
+  disciplines: [chemistry]
   title: Chemistry Education Research Graduate Programs
   url: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
   maintainer: Stacey Lowery Bretz, Miami University
 
 - field: Physics
+  disciplines: [physics]
   title: PER Programs
   url: https://www.per-central.org/programs/
   maintainer: PER Central (programs register themselves)
 
 - field: Mathematics
+  disciplines: [mathematics]
   note: >-
     No public list found yet. Lists of programs in research in undergraduate mathematics
     education (RUME) are shared on the [RUME mailing list](https://groups.google.com/g/rume_list).
 
 - field: Engineering
+  disciplines: [engineering]
   note: No public list found yet.
 
 - field: Medicine and health professions
+  disciplines: [health_education]
   note: >-
     No maintained list found yet. FAIMER's directory of health professions education
     master's and PhD programs is no longer maintained.

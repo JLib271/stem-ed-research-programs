@@ -42,6 +42,16 @@
   section.more h2 { font-size: 1.1rem; margin: 0 0 8px; }
   section.more ul { margin: 0; padding-left: 20px; }
   a { color: var(--accent); }
+  .btn { display: inline-block; margin-top: 14px; padding: 9px 16px; border-radius: 6px; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
+  .btn:hover { filter: brightness(1.1); }
+  .btn.secondary { background: var(--card); color: var(--accent); border: 1px solid var(--accent); }
+  .actions .btn { margin-right: 10px; }
+  ol.steps { margin: 8px 0; padding-left: 22px; }
+  ol.steps li { margin: 3px 0; }
+  .notice { background: var(--accent-soft); border: 1px solid #c9dcea; border-radius: 8px; padding: 14px 16px; margin: 6px 0 12px; }
+  .notice p { margin: 0 0 6px; }
+  .notice p:last-child { margin-bottom: 0; }
+  .notice ul { margin: 4px 0 0; padding-left: 20px; }
   section.more + section.more { padding-top: 0; border-top: 0; }
   section.more ul.other { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 10px; }
   ul.other li { display: grid; grid-template-columns: 220px 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
@@ -58,6 +68,7 @@
     <h1>STEM+ Education Research Graduate Programs</h1>
     <p>Graduate programs and research groups in STEM education research, including discipline-based education research (DBER) and medical and health professions education. Open and community-maintained.</p>
     <p class="note">Programs and research groups are listed whether or not they are taking students right now. Ask the faculty about openings.</p>
+    <a class="btn" href="#add">Suggest a program</a>
   </div>
 </header>
 <main class="wrap">
@@ -70,6 +81,7 @@
     <div><label for="degree">Degree</label><select id="degree"><option value="">All</option></select></div>
     <div><label for="country">Country</label><select id="country"><option value="">All</option></select></div>
   </div>
+  <div id="notice" class="notice" hidden></div>
   <p id="count" aria-live="polite"></p>
   <div id="list" class="grid"></div>
 </main>
@@ -81,10 +93,22 @@
     <p class="small">Know of another list, or maintain one? <a href="https://github.com/JLib271/stem-ed-research-programs/issues/new/choose">Let us know</a>.</p>
   </div>
 </section>
-<section class="more">
+<section class="more" id="add" aria-labelledby="add-h">
   <div class="wrap">
-    <h2>Add or update a program</h2>
-    <p>The list lives on <a id="repo" href="https://github.com/JLib271/stem-ed-research-programs">GitHub</a>. Use the add or update form there, or email the maintainer if you don't have a GitHub account.</p>
+    <h2 id="add-h">Suggest a program</h2>
+    <p>Know a graduate program or research group in STEM+ education research that isn't here? Send these five details:</p>
+    <ol class="steps">
+      <li><strong>Institution</strong> and country</li>
+      <li><strong>Home department</strong>, the unit that grants the degree</li>
+      <li><strong>Degrees</strong>, for example MS and PhD</li>
+      <li><strong>Discipline</strong>, from the list above</li>
+      <li><strong>Education research faculty</strong>, people who agree to be listed</li>
+    </ol>
+    <p class="actions">
+      <a class="btn" id="mail-add" href="#">Email the details</a>
+      <a class="btn secondary" href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=add_program.yml">Use the GitHub form</a>
+    </p>
+    <p class="small">The email button opens a message with the five questions filled in. The GitHub form needs a free GitHub account. To correct or remove a listing, email us or use the <a href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=update_program.yml">update form</a>. Everything is reviewed before it appears.</p>
   </div>
 </section>
 <script>
@@ -109,8 +133,12 @@
         (!ctry || p.institution.country === ctry);
     });
     var list = el('list'); list.innerHTML = '';
+    renderNotice(disc);
     el('count').textContent = shown.length + ' of ' + d.programs.length + ' programs';
-    if (!shown.length) { list.appendChild(text('p', 'empty', 'No programs match. Try clearing a filter.')); return; }
+    if (!shown.length) {
+      if (!(disc && !state.counts[disc])) list.appendChild(text('p', 'empty', 'No programs match. Try clearing a filter.'));
+      return;
+    }
     shown.forEach(function (p) {
       var card = document.createElement('article'); card.className = 'card';
       var h = document.createElement('h2');
@@ -144,6 +172,32 @@
     }
     parent.appendChild(document.createTextNode(s.slice(last)));
   }
+  function renderNotice(disc) {
+    var box = el('notice'); box.innerHTML = '';
+    if (!disc) { box.hidden = true; return; }
+    var d = state.data, label = d.disciplines[disc] || disc;
+    var outside = (d.other_lists || []).filter(function (e) { return (e.disciplines || []).indexOf(disc) !== -1; });
+    var links = outside.filter(function (e) { return e.url; });
+    if (!state.counts[disc]) {
+      box.appendChild(text('p', '', 'No programs in ' + label + ' are listed here yet. ' + (links.length
+        ? 'We are obtaining permission to bring in the programs from the list below.'
+        : 'We are gathering programs in this field.')));
+    } else if (!links.length) { box.hidden = true; return; }
+    if (links.length) {
+      box.appendChild(text('p', '', state.counts[disc] ? 'See also:' : 'In the meantime, see:'));
+      var ul = document.createElement('ul');
+      links.forEach(function (e) {
+        var li = document.createElement('li'), a = text('a', '', e.title); a.href = e.url; a.rel = 'noopener';
+        li.appendChild(a); li.appendChild(document.createTextNode(', maintained by ' + e.maintainer)); ul.appendChild(li);
+      });
+      box.appendChild(ul);
+    } else {
+      outside.forEach(function (e) { if (e.note) { var p = document.createElement('p'); withLinks(p, e.note); box.appendChild(p); } });
+    }
+    var more = document.createElement('p'), a2 = text('a', '', 'Suggest a program in ' + label); a2.href = '#add';
+    more.appendChild(text('span', '', 'Know one? ')); more.appendChild(a2); box.appendChild(more);
+    box.hidden = false;
+  }
   function renderOther(lists) {
     var ul = el('other');
     (lists || []).forEach(function (e) {
@@ -167,7 +221,15 @@
       ctrys[p.institution.country] = 1;
     });
     var order = ['BS', 'MA', 'MS', 'MEd', 'MAT', 'MHPE', 'EdD', 'PhD', 'Certificate'];
-    fill(el('discipline'), Object.keys(discs).sort(), d.disciplines);
+    state.counts = {};
+    d.programs.forEach(function (p) { p.disciplines.forEach(function (x) { state.counts[x] = (state.counts[x] || 0) + 1; }); });
+    var discLabels = {};
+    Object.keys(d.disciplines).forEach(function (x) { discLabels[x] = d.disciplines[x] + ' (' + (state.counts[x] || 0) + ')'; });
+    fill(el('discipline'), Object.keys(d.disciplines).sort(function (a, b) { return d.disciplines[a].localeCompare(d.disciplines[b]); }), discLabels);
+    var body = ['Institution and country:', 'Home department:', 'Degrees (e.g., MS, PhD):',
+      'Discipline (' + Object.keys(d.disciplines).map(function (x) { return d.disciplines[x]; }).join(', ') + '):',
+      'Education research faculty (who agree to be listed):', 'Program or group web page (optional):', 'How you know this (e.g., I am faculty there):'].join('\n\n');
+    el('mail-add').href = 'mailto:libarkin@msu.edu?subject=' + encodeURIComponent('Add a program: STEM+ Education Research Graduate Programs') + '&body=' + encodeURIComponent(body + '\n');
     fill(el('degree'), order.filter(function (x) { return degs[x]; }));
     fill(el('country'), Object.keys(ctrys).sort());
     ['q', 'discipline', 'degree', 'country'].forEach(function (id) { el(id).addEventListener('input', render); });

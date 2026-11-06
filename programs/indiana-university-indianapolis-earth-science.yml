@@ -1,10 +1,10 @@
-id: indiana-university-indianapolis-geoscience
+id: indiana-university-indianapolis-earth-science
 institution:
   name: Indiana University Indianapolis
   country: United States
 home_department: Department of Earth and Environmental Sciences
 degree_types: [BS, MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Samuel “Sammy” Nyarko
 url: https://science.iupui.edu/earthsciences/research/faculty-labs/education-research/index.html

@@ -1,16 +1,12 @@
 {
-  "astronomy": "Astronomy",
-  "biology": "Biology",
+  "agriculture": "Agriculture",
+  "bioscience": "Bioscience",
   "chemistry": "Chemistry",
-  "computer_science": "Computer science",
+  "earth_science": "Earth Science",
   "engineering": "Engineering",
-  "environmental_science": "Environmental science",
-  "geoscience": "Geoscience",
-  "health_professions": "Health professions (nursing, pharmacy, dentistry, allied health)",
+  "health_education": "Health Education",
+  "learning_science": "Learning Science",
   "mathematics": "Mathematics",
-  "medicine": "Medicine",
   "physics": "Physics",
-  "science": "Science (general)",
-  "statistics": "Statistics",
-  "stem": "STEM (interdisciplinary)"
+  "science_education": "Science Education"
 }

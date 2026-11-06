@@ -1,10 +1,10 @@
-id: university-of-colorado-boulder-geoscience
+id: university-of-colorado-boulder-earth-science
 institution:
   name: University of Colorado Boulder
   country: United States
 home_department: Department of Geological Sciences
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Leilani Arthurs
 url: https://www.colorado.edu/geologicalsciences/research/earth-science-education

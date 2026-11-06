@@ -1,10 +1,10 @@
-id: western-michigan-university-geoscience
+id: western-michigan-university-earth-science
 institution:
   name: Western Michigan University
   country: United States
 home_department: Mallinson Institute for Science Education, with the Department of Geological and Environmental Sciences or the Department of Geography
 degree_types: [MA, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Heather Petcovic
 url: https://wmich.edu/science/directory/petcovic

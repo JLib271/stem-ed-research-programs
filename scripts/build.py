@@ -78,6 +78,9 @@ def load_other_lists() -> tuple[list[dict], list[str]]:
             errors.append(f"other-lists.yml entry {i}: needs a field, and either title, url and maintainer, or a note")
         elif has_list and not str(e["url"]).startswith(("http://", "https://")):
             errors.append(f"other-lists.yml entry {i}: url must start with http:// or https://")
+        for d in e.get("disciplines") or []:
+            if d not in DISCIPLINES:
+                errors.append(f"other-lists.yml entry {i}: unknown discipline {d!r}")
     return entries, errors
 
 

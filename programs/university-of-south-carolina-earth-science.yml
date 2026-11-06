@@ -1,10 +1,10 @@
-id: university-of-south-carolina-geoscience
+id: university-of-south-carolina-earth-science
 institution:
   name: University of South Carolina
   country: United States
 home_department: School of the Earth, Ocean and Environment
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Katherine Ryker
 url: http://www.seoe.sc.edu/

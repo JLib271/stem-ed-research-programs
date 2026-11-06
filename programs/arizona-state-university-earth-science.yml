@@ -1,10 +1,10 @@
-id: arizona-state-university-geoscience
+id: arizona-state-university-earth-science
 institution:
   name: Arizona State University
   country: United States
 home_department: School of Earth and Space Exploration
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Darryl Reano
   - name: Molly Simon

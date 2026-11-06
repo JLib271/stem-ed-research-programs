@@ -1,10 +1,10 @@
-id: university-of-south-florida-geoscience
+id: university-of-south-florida-earth-science
 institution:
   name: University of South Florida
   country: United States
 home_department: School of Geosciences
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Jeff Ryan
   - name: H.L. (Len) Vacher

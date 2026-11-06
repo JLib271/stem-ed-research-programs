@@ -1,10 +1,10 @@
-id: boise-state-university-geoscience
+id: boise-state-university-earth-science
 institution:
   name: Boise State University
   country: United States
 home_department: Department of Geosciences
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Karen Viskupic
 url: https://www.boisestate.edu/earth/

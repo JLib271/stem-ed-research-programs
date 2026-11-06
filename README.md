@@ -23,14 +23,14 @@ Each program records five things:
 | **Institution** | University or college, and country |
 | **Home department** | The department, school, or institute that grants the degree, and any partner units |
 | **Degree types** | BS, MA, MS, MEd, MAT, MHPE, EdD, PhD, or Certificate |
-| **Discipline** | Astronomy, biology, chemistry, computer science, engineering, environmental science, geoscience, health professions, mathematics, medicine, physics, general science, statistics, or interdisciplinary STEM |
+| **Discipline** | Agriculture, Bioscience, Chemistry, Earth Science, Engineering, Health Education (including medical and health professions education), Learning Science, Mathematics, Physics, or Science Education. These match the [STEMEd+ Jobs](https://github.com/JLib271/stemed-jobs) categories. |
 | **Education research faculty** | Faculty who supervise education research students |
 
 🔎 **Search and filter the list:** https://jlib271.github.io/stem-ed-research-programs/
 
 ## Programs
 
-The list starts with geoscience education research programs, carried over from the
+The list starts with Earth Science (geoscience) education research programs, carried over from the
 [Geocognition Research Laboratory's list](https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/).
 Programs in other fields, including medical and health professions education, are welcome. See [Add or update a program](#add-or-update-a-program).
 
@@ -39,24 +39,24 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 
 | Institution | Home department | Degrees | Discipline | Education research faculty |
 |---|---|---|---|---|
-| [Arizona State University](http://sese.asu.edu/science_education)<br><sub>United States</sub> | School of Earth and Space Exploration | MS, PhD | Geoscience | Darryl Reano, Molly Simon, Chris Mead, Steven Semken |
-| [Auburn University](http://www.auburn.edu/cosam/departments/geosciences/index.htm)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Geoscience | Karen McNeal |
-| [Boise State University](https://www.boisestate.edu/earth/)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Geoscience | Karen Viskupic |
-| [Clemson University](https://www.clemson.edu/cecas/departments/ese/)<br><sub>United States</sub> | Department of Engineering and Science Education | PhD | Geoscience | Kelly Best Lazar |
-| [Indiana University Indianapolis](https://science.iupui.edu/earthsciences/research/faculty-labs/education-research/index.html)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | BS, MS, PhD | Geoscience | Samuel “Sammy” Nyarko |
-| [Michigan State University](https://geocognitionresearchlaboratory.wordpress.com/graduate-study/graduate-study-in-the-grl/)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | MS, PhD | Geoscience | Julie Libarkin |
-| [Mississippi State University](http://www.geosciences.msstate.edu/)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Geoscience | Renee Clary, Athena Owen Nagel, Kathy Sherman-Morris |
-| [North Carolina State University](http://www.meas.ncsu.edu/)<br><sub>United States</sub> | Department of Marine, Earth, and Atmospheric Sciences | MS, PhD | Geoscience | David McConnell |
-| [Northern Illinois University](https://sites.google.com/view/nicole-ladues-vger-lab)<br><sub>United States</sub> | Department of Earth, Atmosphere and Environment | MS, PhD | Geoscience | Nicole LaDue |
-| [University of British Columbia](https://www.eoas.ubc.ca/people/lauralukes)<br><sub>Canada</sub> | Department of Earth, Ocean and Atmospheric Sciences | MS, PhD | Geoscience | Laura Lukes |
-| [University of Canterbury](http://www.geol.canterbury.ac.nz/Geoscience_Education/Index.shtml)<br><sub>New Zealand</sub> | School of Earth and Environment, with the College of Education | MS, PhD | Geoscience | Ben Kennedy, Sara Tolbert |
-| [University of Colorado Boulder](https://www.colorado.edu/geologicalsciences/research/earth-science-education)<br><sub>United States</sub> | Department of Geological Sciences ⚠️ | MS, PhD | Geoscience | Leilani Arthurs |
-| [University of Edinburgh](https://scotgeese.wordpress.com/)<br><sub>United Kingdom</sub> | School of GeoSciences, with the Institute for Academic Development | PhD ⚠️ | Geoscience | Jacqueline Dohaney, Dan Swanton |
-| [University of Rhode Island](https://placeslab.stemedplus.org/)<br><sub>United States</sub> | College of the Environment and Life Sciences (Biological and Environmental Sciences) | MS, PhD | Geoscience | Carolina Michel |
-| [University of South Carolina](http://www.seoe.sc.edu/)<br><sub>United States</sub> | School of the Earth, Ocean and Environment | MS, PhD | Geoscience | Katherine Ryker |
-| [University of South Florida](http://geology.usf.edu/prospective/geosci/)<br><sub>United States</sub> | School of Geosciences ⚠️ | MS, PhD | Geoscience | Jeff Ryan, H.L. (Len) Vacher |
-| [Western Michigan University](https://wmich.edu/science/directory/petcovic)<br><sub>United States</sub> | Mallinson Institute for Science Education, with the Department of Geological and Environmental Sciences or the Department of Geography | MA, PhD | Geoscience | Heather Petcovic |
-| [Western Washington University](https://cse.wwu.edu/geology)<br><sub>United States</sub> | Geology Department, with Woodring College of Education | MS | Geoscience | Robyn Mieko Dahl, Sue DiBari, Scott Linneman |
+| [Arizona State University](http://sese.asu.edu/science_education)<br><sub>United States</sub> | School of Earth and Space Exploration | MS, PhD | Earth Science | Darryl Reano, Molly Simon, Chris Mead, Steven Semken |
+| [Auburn University](http://www.auburn.edu/cosam/departments/geosciences/index.htm)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Karen McNeal |
+| [Boise State University](https://www.boisestate.edu/earth/)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Karen Viskupic |
+| [Clemson University](https://www.clemson.edu/cecas/departments/ese/)<br><sub>United States</sub> | Department of Engineering and Science Education | PhD | Earth Science | Kelly Best Lazar |
+| [Indiana University Indianapolis](https://science.iupui.edu/earthsciences/research/faculty-labs/education-research/index.html)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | BS, MS, PhD | Earth Science | Samuel “Sammy” Nyarko |
+| [Michigan State University](https://geocognitionresearchlaboratory.wordpress.com/graduate-study/graduate-study-in-the-grl/)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | MS, PhD | Earth Science | Julie Libarkin |
+| [Mississippi State University](http://www.geosciences.msstate.edu/)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Renee Clary, Athena Owen Nagel, Kathy Sherman-Morris |
+| [North Carolina State University](http://www.meas.ncsu.edu/)<br><sub>United States</sub> | Department of Marine, Earth, and Atmospheric Sciences | MS, PhD | Earth Science | David McConnell |
+| [Northern Illinois University](https://sites.google.com/view/nicole-ladues-vger-lab)<br><sub>United States</sub> | Department of Earth, Atmosphere and Environment | MS, PhD | Earth Science | Nicole LaDue |
+| [University of British Columbia](https://www.eoas.ubc.ca/people/lauralukes)<br><sub>Canada</sub> | Department of Earth, Ocean and Atmospheric Sciences | MS, PhD | Earth Science | Laura Lukes |
+| [University of Canterbury](http://www.geol.canterbury.ac.nz/Geoscience_Education/Index.shtml)<br><sub>New Zealand</sub> | School of Earth and Environment, with the College of Education | MS, PhD | Earth Science | Ben Kennedy, Sara Tolbert |
+| [University of Colorado Boulder](https://www.colorado.edu/geologicalsciences/research/earth-science-education)<br><sub>United States</sub> | Department of Geological Sciences ⚠️ | MS, PhD | Earth Science | Leilani Arthurs |
+| [University of Edinburgh](https://scotgeese.wordpress.com/)<br><sub>United Kingdom</sub> | School of GeoSciences, with the Institute for Academic Development | PhD ⚠️ | Earth Science | Jacqueline Dohaney, Dan Swanton |
+| [University of Rhode Island](https://placeslab.stemedplus.org/)<br><sub>United States</sub> | College of the Environment and Life Sciences (Biological and Environmental Sciences) | MS, PhD | Earth Science | Carolina Michel |
+| [University of South Carolina](http://www.seoe.sc.edu/)<br><sub>United States</sub> | School of the Earth, Ocean and Environment | MS, PhD | Earth Science | Katherine Ryker |
+| [University of South Florida](http://geology.usf.edu/prospective/geosci/)<br><sub>United States</sub> | School of Geosciences ⚠️ | MS, PhD | Earth Science | Jeff Ryan, H.L. (Len) Vacher |
+| [Western Michigan University](https://wmich.edu/science/directory/petcovic)<br><sub>United States</sub> | Mallinson Institute for Science Education, with the Department of Geological and Environmental Sciences or the Department of Geography | MA, PhD | Earth Science | Heather Petcovic |
+| [Western Washington University](https://cse.wwu.edu/geology)<br><sub>United States</sub> | Geology Department, with Woodring College of Education | MS | Earth Science | Robyn Mieko Dahl, Sue DiBari, Scott Linneman |
 <!-- programs:end -->
 
 ## Lists maintained elsewhere

@@ -1,10 +1,10 @@
-id: northern-illinois-university-geoscience
+id: northern-illinois-university-earth-science
 institution:
   name: Northern Illinois University
   country: United States
 home_department: Department of Earth, Atmosphere and Environment
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Nicole LaDue
 url: https://sites.google.com/view/nicole-ladues-vger-lab

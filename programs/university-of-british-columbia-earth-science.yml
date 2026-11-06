@@ -1,10 +1,10 @@
-id: university-of-british-columbia-geoscience
+id: university-of-british-columbia-earth-science
 institution:
   name: University of British Columbia
   country: Canada
 home_department: Department of Earth, Ocean and Atmospheric Sciences
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Laura Lukes
 url: https://www.eoas.ubc.ca/people/lauralukes

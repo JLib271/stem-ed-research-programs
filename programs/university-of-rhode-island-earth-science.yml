@@ -1,10 +1,10 @@
-id: university-of-rhode-island-geoscience
+id: university-of-rhode-island-earth-science
 institution:
   name: University of Rhode Island
   country: United States
 home_department: College of the Environment and Life Sciences (Biological and Environmental Sciences)
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Carolina Michel
 url: https://placeslab.stemedplus.org/

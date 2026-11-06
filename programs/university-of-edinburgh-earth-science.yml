@@ -1,10 +1,10 @@
-id: university-of-edinburgh-geoscience
+id: university-of-edinburgh-earth-science
 institution:
   name: University of Edinburgh
   country: United Kingdom
 home_department: School of GeoSciences, with the Institute for Academic Development
 degree_types: [PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Jacqueline Dohaney
   - name: Dan Swanton

@@ -1,10 +1,10 @@
-id: clemson-university-geoscience
+id: clemson-university-earth-science
 institution:
   name: Clemson University
   country: United States
 home_department: Department of Engineering and Science Education
 degree_types: [PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Kelly Best Lazar
 url: https://www.clemson.edu/cecas/departments/ese/

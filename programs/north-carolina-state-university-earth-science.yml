@@ -1,10 +1,10 @@
-id: north-carolina-state-university-geoscience
+id: north-carolina-state-university-earth-science
 institution:
   name: North Carolina State University
   country: United States
 home_department: Department of Marine, Earth, and Atmospheric Sciences
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: David McConnell
 url: http://www.meas.ncsu.edu/

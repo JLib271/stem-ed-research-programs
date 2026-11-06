@@ -43,20 +43,16 @@ body:
       label: Discipline
       multiple: true
       options:
-        - Astronomy
-        - Biology
+        - Agriculture
+        - Bioscience
         - Chemistry
-        - Computer science
+        - Earth Science
         - Engineering
-        - Environmental science
-        - Geoscience
-        - Health professions (nursing, pharmacy, dentistry, allied health)
+        - Health Education (including medical and health professions education)
+        - Learning Science
         - Mathematics
-        - Medicine
         - Physics
-        - Science (general)
-        - Statistics
-        - STEM (interdisciplinary)
+        - Science Education
         - Other (say which below)
     validations:
       required: true

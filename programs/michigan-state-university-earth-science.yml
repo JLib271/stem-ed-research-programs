@@ -1,10 +1,10 @@
-id: michigan-state-university-geoscience
+id: michigan-state-university-earth-science
 institution:
   name: Michigan State University
   country: United States
 home_department: Department of Earth and Environmental Sciences
 degree_types: [MS, PhD]
-disciplines: [geoscience]
+disciplines: [earth_science]
 faculty:
   - name: Julie Libarkin
 url: https://geocognitionresearchlaboratory.wordpress.com/graduate-study/graduate-study-in-the-grl/
