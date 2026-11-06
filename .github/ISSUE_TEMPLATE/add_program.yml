@@ -1,5 +1,5 @@
 name: Add a program
-description: Suggest a graduate program where students can do STEM+ education research.
+description: Suggest a graduate program or research group in STEM+ education research, including medical and health professions education.
 title: "Add: <institution>, <discipline>"
 labels: ["add program"]
 body:
@@ -33,6 +33,7 @@ body:
         - label: MS
         - label: MEd
         - label: MAT
+        - label: MHPE
         - label: EdD
         - label: PhD
         - label: Certificate
@@ -47,18 +48,22 @@ body:
         - Chemistry
         - Computer science
         - Engineering
+        - Environmental science
         - Geoscience
+        - Health professions (nursing, pharmacy, dentistry, allied health)
         - Mathematics
+        - Medicine
         - Physics
+        - Science (general)
         - Statistics
         - STEM (interdisciplinary)
         - Other (say which below)
     validations:
       required: true
   - type: textarea
-    id: dber_faculty
+    id: faculty
     attributes:
-      label: DBER faculty
+      label: Education research faculty
       description: Faculty who supervise education research students, one per line. List only people who agree to be listed or whom the program lists publicly.
     validations:
       required: true

@@ -5,7 +5,7 @@ institution:
 home_department: Department of Geosciences
 degree_types: [MS, PhD]
 disciplines: [geoscience]
-dber_faculty:
+faculty:
   - name: Renee Clary
   - name: Athena Owen Nagel
   - name: Kathy Sherman-Morris

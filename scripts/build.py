@@ -72,7 +72,7 @@ def _md(text: str) -> str:
 
 
 def readme_table(programs: list[dict]) -> str:
-    rows = ["| Institution | Home department | Degrees | Discipline | DBER faculty |",
+    rows = ["| Institution | Home department | Degrees | Discipline | Education research faculty |",
             "|---|---|---|---|---|"]
     for r in sorted(programs, key=lambda r: (r["institution"]["name"], r["id"])):
         inst = _md(r["institution"]["name"])
@@ -82,7 +82,7 @@ def readme_table(programs: list[dict]) -> str:
         dept = _md(r["home_department"]) + (" ⚠️" if "home_department" in r.get("needs_check", []) else "")
         degrees = ", ".join(r["degree_types"]) + (" ⚠️" if "degree_types" in r.get("needs_check", []) else "")
         disc = ", ".join(DISCIPLINES[d] for d in r["disciplines"])
-        faculty = ", ".join(_md(f["name"]) for f in r["dber_faculty"])
+        faculty = ", ".join(_md(f["name"]) for f in r["faculty"])
         rows.append(f"| {inst} | {dept} | {degrees} | {disc} | {faculty} |")
     count = f"{len(programs)} program{'s' if len(programs) != 1 else ''}."
     note = " ⚠️ marks details still to be confirmed with the program." if any(

@@ -1,13 +1,17 @@
 # STEM+ Education Research Graduate Programs
 
-An open, community-maintained list of graduate programs where students can do
-**discipline-based education research (DBER)**: research on teaching and learning
-in a science, technology, engineering, or mathematics discipline, usually housed in
-a college of science or engineering.
+An open, community-maintained list of graduate programs and research groups in
+**STEM+ education research**: research on teaching and learning in science, technology,
+engineering, mathematics, medicine, and the health professions. It includes:
 
-Many of these programs sit inside science and engineering departments, so they are
-hard to find by searching for "STEM education." This list brings them together in
-one place.
+* **Discipline-based education research (DBER)** in science, engineering, and mathematics
+  departments
+* **Science, mathematics, and STEM education** programs in schools and colleges of education
+* **Medical and health professions education** research in medical, nursing, pharmacy,
+  and other health professions schools
+
+These programs sit in many different kinds of departments, so they are hard to find by
+searching for "STEM education." This list brings them together in one place.
 
 It lists programs and research groups whether or not they are taking students right now.
 Being listed does not mean a group has openings, so ask the faculty directly.
@@ -18,22 +22,22 @@ Each program records five things:
 |---|---|
 | **Institution** | University or college, and country |
 | **Home department** | The department, school, or institute that grants the degree, and any partner units |
-| **Degree types** | BS, MA, MS, MEd, MAT, EdD, PhD, or Certificate |
-| **Discipline** | Astronomy, biology, chemistry, computer science, engineering, geoscience, mathematics, physics, statistics, or interdisciplinary STEM |
-| **DBER faculty** | Faculty who supervise education research students |
+| **Degree types** | BS, MA, MS, MEd, MAT, MHPE, EdD, PhD, or Certificate |
+| **Discipline** | Astronomy, biology, chemistry, computer science, engineering, environmental science, geoscience, health professions, mathematics, medicine, physics, general science, statistics, or interdisciplinary STEM |
+| **Education research faculty** | Faculty who supervise education research students |
 
-🔎 **Search and filter the list:** https://jlib271.github.io/dber-graduate-programs/
+🔎 **Search and filter the list:** https://jlib271.github.io/stem-ed-research-programs/
 
 ## Programs
 
 The list starts with geoscience education research programs, carried over from the
 [Geocognition Research Laboratory's list](https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/).
-Programs in other disciplines are welcome. See [Add or update a program](#add-or-update-a-program).
+Programs in other fields, including medical and health professions education, are welcome. See [Add or update a program](#add-or-update-a-program).
 
 <!-- programs:start -->
 _Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 18 programs. ⚠️ marks details still to be confirmed with the program._
 
-| Institution | Home department | Degrees | Discipline | DBER faculty |
+| Institution | Home department | Degrees | Discipline | Education research faculty |
 |---|---|---|---|---|
 | [Arizona State University](http://sese.asu.edu/science_education)<br><sub>United States</sub> | School of Earth and Space Exploration | MS, PhD | Geoscience | Darryl Reano, Molly Simon, Chris Mead, Steven Semken |
 | [Auburn University](http://www.auburn.edu/cosam/departments/geosciences/index.htm)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Geoscience | Karen McNeal |
@@ -57,7 +61,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 
 ## Lists maintained elsewhere
 
-Other DBER communities keep their own lists. Until their programs are added here,
+Other communities keep their own lists. Until their programs are added here,
 use these:
 
 | Discipline | List | Maintained by |
@@ -67,6 +71,7 @@ use these:
 | Physics | [PER Programs](https://www.per-central.org/programs/) | PER Central (programs register themselves) |
 | Mathematics | No public list found yet. Lists of programs in research in undergraduate mathematics education (RUME) are shared on the [RUME mailing list](https://groups.google.com/g/rume_list). | RUME community |
 | Engineering | No public list found yet. | |
+| Medicine and health professions | No maintained list found yet. FAIMER's directory of health professions education master's and PhD programs is no longer maintained. [Kulo and Cestone (2022)](https://doi.org/10.1186/s12909-022-03937-z) describe 20 doctoral programs in the US and Canada. | |
 
 Know of another list, or maintain one? [Open an issue](../../issues/new/choose) so we can link to it.
 

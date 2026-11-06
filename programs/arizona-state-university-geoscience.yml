@@ -5,7 +5,7 @@ institution:
 home_department: School of Earth and Space Exploration
 degree_types: [MS, PhD]
 disciplines: [geoscience]
-dber_faculty:
+faculty:
   - name: Darryl Reano
   - name: Molly Simon
   - name: Chris Mead

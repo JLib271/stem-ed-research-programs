@@ -4,16 +4,24 @@ Thank you for helping prospective students find graduate programs in STEM+ educa
 
 ## What belongs here
 
-Graduate programs where students can do **discipline-based education research (DBER)**:
-research on teaching and learning in a STEM discipline, usually supervised by faculty in a
-science, engineering, or mathematics department, college, or institute. Programs in schools of
-education qualify when a named faculty member supervises DBER students in a specific discipline.
+Graduate programs and research groups where students can do **education research in a STEM+
+field**: science, technology, engineering, mathematics, medicine, or the health professions.
+That includes:
+
+* discipline-based education research (DBER) in science, engineering, and mathematics departments
+* science, mathematics, and STEM education programs in schools and colleges of education
+* medical and health professions education research in medical, nursing, pharmacy, and other
+  health professions schools
+
+A program qualifies when named faculty supervise graduate students doing education research.
+Programs that train educators without a research component, such as teaching certificates
+alone, do not belong here.
 
 Include programs and research groups whether or not they are taking students right now.
 Remove a program only when it no longer exists, not when it stops admitting students.
 
-List one program per institution and discipline. If one department offers DBER in two
-disciplines, list both in the same file's `disciplines`.
+List one program per institution and home department. If one department supports education
+research in two disciplines, list both in the same file's `disciplines`.
 
 ## Add or update a program
 
@@ -33,9 +41,9 @@ institution:
   country: United States
   # ror: https://ror.org/0xxxxxxxx   # optional ROR identifier
 home_department: Department of Chemistry   # add partner units after "with"
-degree_types: [MS, PhD]                    # BS, MA, MS, MEd, MAT, EdD, PhD, Certificate
+degree_types: [MS, PhD]                    # BS, MA, MS, MEd, MAT, MHPE, EdD, PhD, Certificate
 disciplines: [chemistry]                   # ids from schema/disciplines.json
-dber_faculty:
+faculty:
   - name: Firstname Lastname
 url: https://example.edu/chem-ed           # optional: program, group, or department page
 source: https://example.edu/chem-ed        # where this came from, or "Submitted by <name>, <role>"
@@ -69,5 +77,5 @@ Commit the regenerated `README.md` with your change.
 
 The searchable website in `site/` is built and published by `.github/workflows/pages.yml`.
 To turn it on: in the repository's **Settings → Pages**, set **Source** to **GitHub Actions**.
-The site appears at https://jlib271.github.io/dber-graduate-programs/ after the next push to `main`
+The site appears at https://jlib271.github.io/stem-ed-research-programs/ after the next push to `main`
 (or run the workflow by hand from the Actions tab).

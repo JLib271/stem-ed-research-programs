@@ -4,9 +4,13 @@
   "chemistry": "Chemistry",
   "computer_science": "Computer science",
   "engineering": "Engineering",
+  "environmental_science": "Environmental science",
   "geoscience": "Geoscience",
+  "health_professions": "Health professions (nursing, pharmacy, dentistry, allied health)",
   "mathematics": "Mathematics",
+  "medicine": "Medicine",
   "physics": "Physics",
+  "science": "Science (general)",
   "statistics": "Statistics",
   "stem": "STEM (interdisciplinary)"
 }

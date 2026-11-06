@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>STEM+ Education Research Graduate Programs</title>
-<meta name="description" content="An open, community-maintained list of graduate programs in discipline-based education research (DBER).">
+<meta name="description" content="An open, community-maintained list of graduate programs and research groups in STEM education research, including medical and health professions education.">
 <style>
   :root {
     --ink: #1d2433; --muted: #5b6475; --line: #dde2ea; --bg: #f7f8fa; --card: #fff;
@@ -49,7 +49,7 @@
 <header>
   <div class="wrap">
     <h1>STEM+ Education Research Graduate Programs</h1>
-    <p>Graduate programs where students can do discipline-based education research (DBER), usually housed in science and engineering departments. Open and community-maintained.</p>
+    <p>Graduate programs and research groups in STEM education research, including discipline-based education research (DBER) and medical and health professions education. Open and community-maintained.</p>
     <p class="note">Programs and research groups are listed whether or not they are taking students right now. Ask the faculty about openings.</p>
   </div>
 </header>
@@ -69,7 +69,7 @@
 <section class="more">
   <div class="wrap">
     <h2>Add or update a program</h2>
-    <p>The list lives on <a id="repo" href="https://github.com/JLib271/dber-graduate-programs">GitHub</a>. Use the add or update form there, or email the maintainer if you don't have a GitHub account. Other DBER communities keep their own lists. The GitHub page links to them.</p>
+    <p>The list lives on <a id="repo" href="https://github.com/JLib271/stem-ed-research-programs">GitHub</a>. Use the add or update form there, or email the maintainer if you don't have a GitHub account. Other DBER communities keep their own lists. The GitHub page links to them.</p>
   </div>
 </section>
 <script>
@@ -82,7 +82,7 @@
   }
   function haystack(p) {
     return [p.institution.name, p.institution.country, p.home_department]
-      .concat(p.dber_faculty.map(function (f) { return f.name; })).join(' ').toLowerCase();
+      .concat(p.faculty.map(function (f) { return f.name; })).join(' ').toLowerCase();
   }
   function render() {
     var d = state.data, q = el('q').value.trim().toLowerCase();
@@ -109,8 +109,8 @@
       p.degree_types.forEach(function (x) { tags.appendChild(text('span', 'tag deg', x)); });
       card.appendChild(tags);
       var fac = document.createElement('div'); fac.className = 'faculty';
-      fac.appendChild(text('span', '', 'DBER faculty: '));
-      fac.appendChild(document.createTextNode(p.dber_faculty.map(function (f) { return f.name; }).join(', ')));
+      fac.appendChild(text('span', '', 'Education research faculty: '));
+      fac.appendChild(document.createTextNode(p.faculty.map(function (f) { return f.name; }).join(', ')));
       card.appendChild(fac);
       if (p.needs_check && p.needs_check.length) {
         card.appendChild(text('div', 'check', 'To be confirmed: ' + p.needs_check.join(', ').replace(/_/g, ' ')));
@@ -127,7 +127,7 @@
       p.degree_types.forEach(function (x) { degs[x] = 1; });
       ctrys[p.institution.country] = 1;
     });
-    var order = ['BS', 'MA', 'MS', 'MEd', 'MAT', 'EdD', 'PhD', 'Certificate'];
+    var order = ['BS', 'MA', 'MS', 'MEd', 'MAT', 'MHPE', 'EdD', 'PhD', 'Certificate'];
     fill(el('discipline'), Object.keys(discs).sort(), d.disciplines);
     fill(el('degree'), order.filter(function (x) { return degs[x]; }));
     fill(el('country'), Object.keys(ctrys).sort());

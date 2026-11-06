@@ -1,11 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/JLib271/dber-graduate-programs/schema/program.schema.json",
-  "title": "Graduate program in STEM+ education research",
-  "description": "One graduate program where students can do discipline-based education research (DBER). One file per program in programs/.",
+  "$id": "https://github.com/JLib271/stem-ed-research-programs/schema/program.schema.json",
+  "title": "Graduate program or research group in STEM+ education research",
+  "description": "One graduate program or research group in STEM education research, including discipline-based education research (DBER) and medical and health professions education. One file per program in programs/.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "institution", "home_department", "degree_types", "disciplines", "dber_faculty", "source", "last_verified"],
+  "required": [
+    "id",
+    "institution",
+    "home_department",
+    "degree_types",
+    "disciplines",
+    "faculty",
+    "source",
+    "last_verified"
+  ],
   "properties": {
     "id": {
       "description": "Matches the file name without .yml: institution, then discipline, lowercase with hyphens.",
@@ -15,10 +24,19 @@
     "institution": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name", "country"],
+      "required": [
+        "name",
+        "country"
+      ],
       "properties": {
-        "name": {"type": "string", "minLength": 2},
-        "country": {"type": "string", "minLength": 2},
+        "name": {
+          "type": "string",
+          "minLength": 2
+        },
+        "country": {
+          "type": "string",
+          "minLength": 2
+        },
         "ror": {
           "description": "Optional ROR identifier for the institution, e.g. https://ror.org/05hs6h993",
           "type": "string",
@@ -35,26 +53,46 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "items": {"enum": ["BS", "MA", "MS", "MEd", "MAT", "EdD", "PhD", "Certificate"]}
+      "items": {
+        "enum": [
+          "BS",
+          "MA",
+          "MS",
+          "MEd",
+          "MAT",
+          "MHPE",
+          "EdD",
+          "PhD",
+          "Certificate"
+        ]
+      }
     },
     "disciplines": {
       "description": "Term ids from schema/disciplines.json.",
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "items": {"type": "string"}
+      "items": {
+        "type": "string"
+      }
     },
-    "dber_faculty": {
+    "faculty": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name"],
+        "required": [
+          "name"
+        ],
         "properties": {
-          "name": {"type": "string", "minLength": 2}
+          "name": {
+            "type": "string",
+            "minLength": 2
+          }
         }
-      }
+      },
+      "description": "Faculty who supervise education research students in this program."
     },
     "url": {
       "description": "Optional link to the program, research group, or department page.",
@@ -76,7 +114,16 @@
       "description": "Fields that could not be confirmed from the source and should be checked with the program.",
       "type": "array",
       "uniqueItems": true,
-      "items": {"enum": ["institution", "home_department", "degree_types", "disciplines", "dber_faculty", "url"]}
+      "items": {
+        "enum": [
+          "institution",
+          "home_department",
+          "degree_types",
+          "disciplines",
+          "faculty",
+          "url"
+        ]
+      }
     }
   }
 }
