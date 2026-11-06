@@ -39,7 +39,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 
 | Institution | Home department | Degrees | Discipline | Education research faculty |
 |---|---|---|---|---|
-| [Arizona State University](http://sese.asu.edu/science_education)<br><sub>United States</sub> | School of Earth and Space Exploration | MS, PhD | Earth Science | Darryl Reano, Molly Simon, Chris Mead, Steven Semken |
+| [Arizona State University](https://sese.asu.edu/research/focus-areas/science-education)<br><sub>United States</sub> | School of Earth and Space Exploration | MS, PhD | Earth Science | Darryl Reano, Molly Simon, Chris Mead, Steven Semken |
 | [Auburn University](http://www.auburn.edu/cosam/departments/geosciences/index.htm)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Karen McNeal |
 | [Boise State University](https://www.boisestate.edu/earth/)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Karen Viskupic |
 | [Clemson University](https://www.clemson.edu/cecas/departments/ese/)<br><sub>United States</sub> | Department of Engineering and Science Education | PhD | Earth Science | Kelly Best Lazar |
