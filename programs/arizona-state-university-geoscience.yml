@@ -1,0 +1,15 @@
+id: arizona-state-university-geoscience
+institution:
+  name: Arizona State University
+  country: United States
+home_department: School of Earth and Space Exploration
+degree_types: [MS, PhD]
+disciplines: [geoscience]
+dber_faculty:
+  - name: Darryl Reano
+  - name: Molly Simon
+  - name: Chris Mead
+  - name: Steven Semken
+url: http://sese.asu.edu/science_education
+source: https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/
+last_verified: 2026-11-06

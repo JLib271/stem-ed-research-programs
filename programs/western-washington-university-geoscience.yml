@@ -1,0 +1,14 @@
+id: western-washington-university-geoscience
+institution:
+  name: Western Washington University
+  country: United States
+home_department: Geology Department, with Woodring College of Education
+degree_types: [MS]
+disciplines: [geoscience]
+dber_faculty:
+  - name: Robyn Mieko Dahl
+  - name: Sue DiBari
+  - name: Scott Linneman
+url: https://cse.wwu.edu/geology
+source: https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/
+last_verified: 2026-11-06

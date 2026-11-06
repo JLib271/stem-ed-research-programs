@@ -1,0 +1,12 @@
+id: indiana-university-indianapolis-geoscience
+institution:
+  name: Indiana University Indianapolis
+  country: United States
+home_department: Department of Earth and Environmental Sciences
+degree_types: [BS, MS, PhD]
+disciplines: [geoscience]
+dber_faculty:
+  - name: Samuel “Sammy” Nyarko
+url: https://science.iupui.edu/earthsciences/research/faculty-labs/education-research/index.html
+source: https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/
+last_verified: 2026-11-06

@@ -1,0 +1,24 @@
+name: Check links
+
+# Monthly check of every program link. Broken links are listed in the run summary
+# so a maintainer can follow up with the program.
+
+on:
+  schedule:
+    - cron: "17 13 3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links in program files
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 2 --timeout 30 --accept 200..=299,403,429 programs/*.yml
+          fail: false
+          jobSummary: true

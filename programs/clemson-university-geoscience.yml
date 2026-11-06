@@ -1,0 +1,12 @@
+id: clemson-university-geoscience
+institution:
+  name: Clemson University
+  country: United States
+home_department: Department of Engineering and Science Education
+degree_types: [PhD]
+disciplines: [geoscience]
+dber_faculty:
+  - name: Kelly Best Lazar
+url: https://www.clemson.edu/cecas/departments/ese/
+source: https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/
+last_verified: 2026-11-06

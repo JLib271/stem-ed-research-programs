@@ -1,0 +1,28 @@
+name: Update or remove a program
+description: Correct a listing, confirm it is still current, or ask for a program or person to be removed.
+title: "Update: <institution>, <discipline>"
+labels: ["update program"]
+body:
+  - type: input
+    id: program
+    attributes:
+      label: Which program?
+      description: Institution and discipline, or the file name in programs/.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change?
+      options:
+        - The listing is still correct (confirm it)
+        - Correct a detail
+        - Add or remove a faculty member
+        - Remove the program (no longer offered)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should change, and where the correct information comes from. Please do not include email addresses.

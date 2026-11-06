@@ -1,0 +1,12 @@
+id: auburn-university-geoscience
+institution:
+  name: Auburn University
+  country: United States
+home_department: Department of Geosciences
+degree_types: [MS, PhD]
+disciplines: [geoscience]
+dber_faculty:
+  - name: Karen McNeal
+url: http://www.auburn.edu/cosam/departments/geosciences/index.htm
+source: https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/
+last_verified: 2026-11-06

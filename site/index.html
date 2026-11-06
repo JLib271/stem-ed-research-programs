@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STEM+ Education Research Graduate Programs</title>
+<meta name="description" content="An open, community-maintained list of graduate programs in discipline-based education research (DBER).">
+<style>
+  :root {
+    --ink: #1d2433; --muted: #5b6475; --line: #dde2ea; --bg: #f7f8fa; --card: #fff;
+    --accent: #1f5f8b; --accent-soft: #e6f0f7; --warn: #8a5a00;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); }
+  header { background: var(--card); border-bottom: 1px solid var(--line); }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  header .wrap { padding-top: 28px; padding-bottom: 22px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); max-width: 62ch; }
+  .controls { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 12px; margin: 22px 0 10px; }
+  label { display: block; font-size: 0.8rem; font-weight: 600; color: var(--muted); margin-bottom: 4px; }
+  input, select { width: 100%; padding: 9px 10px; font: inherit; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); }
+  input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  #count { color: var(--muted); font-size: 0.9rem; margin: 6px 0 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; padding-bottom: 32px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+  .card h2 { font-size: 1.05rem; margin: 0; }
+  .card h2 a { color: var(--accent); text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .country { color: var(--muted); font-size: 0.85rem; }
+  .dept { margin: 2px 0; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0; }
+  .tag { font-size: 0.78rem; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .tag.deg { background: #eef0f3; color: var(--ink); }
+  .faculty { font-size: 0.92rem; }
+  .faculty span { color: var(--muted); }
+  .check { font-size: 0.8rem; color: var(--warn); }
+  .meta { font-size: 0.78rem; color: var(--muted); margin-top: auto; padding-top: 6px; }
+  .empty { padding: 30px; text-align: center; color: var(--muted); }
+  section.more { background: var(--card); border-top: 1px solid var(--line); padding: 22px 0 30px; }
+  section.more h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  section.more ul { margin: 0; padding-left: 20px; }
+  a { color: var(--accent); }
+  @media (max-width: 760px) { .controls { grid-template-columns: 1fr 1fr; } .controls .search { grid-column: 1 / -1; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>STEM+ Education Research Graduate Programs</h1>
+    <p>Graduate programs where students can do discipline-based education research (DBER), usually housed in science and engineering departments. Open and community-maintained.</p>
+  </div>
+</header>
+<main class="wrap">
+  <div class="controls" role="search">
+    <div class="search">
+      <label for="q">Search</label>
+      <input id="q" type="search" placeholder="Institution, department, or faculty name" autocomplete="off">
+    </div>
+    <div><label for="discipline">Discipline</label><select id="discipline"><option value="">All</option></select></div>
+    <div><label for="degree">Degree</label><select id="degree"><option value="">All</option></select></div>
+    <div><label for="country">Country</label><select id="country"><option value="">All</option></select></div>
+  </div>
+  <p id="count" aria-live="polite"></p>
+  <div id="list" class="grid"></div>
+</main>
+<section class="more">
+  <div class="wrap">
+    <h2>Add or update a program</h2>
+    <p>The list lives on <a id="repo" href="https://github.com/JLib271/dber-graduate-programs">GitHub</a>. Use the add or update form there, or email the maintainer if you don't have a GitHub account. Other DBER communities keep their own lists. The GitHub page links to them.</p>
+  </div>
+</section>
+<script>
+(function () {
+  var state = { data: null };
+  var el = function (id) { return document.getElementById(id); };
+  function text(tag, cls, value) { var n = document.createElement(tag); if (cls) n.className = cls; n.textContent = value; return n; }
+  function fill(select, values, labels) {
+    values.forEach(function (v) { var o = document.createElement('option'); o.value = v; o.textContent = labels ? labels[v] : v; select.appendChild(o); });
+  }
+  function haystack(p) {
+    return [p.institution.name, p.institution.country, p.home_department]
+      .concat(p.dber_faculty.map(function (f) { return f.name; })).join(' ').toLowerCase();
+  }
+  function render() {
+    var d = state.data, q = el('q').value.trim().toLowerCase();
+    var disc = el('discipline').value, deg = el('degree').value, ctry = el('country').value;
+    var shown = d.programs.filter(function (p) {
+      return (!q || haystack(p).indexOf(q) !== -1) &&
+        (!disc || p.disciplines.indexOf(disc) !== -1) &&
+        (!deg || p.degree_types.indexOf(deg) !== -1) &&
+        (!ctry || p.institution.country === ctry);
+    });
+    var list = el('list'); list.innerHTML = '';
+    el('count').textContent = shown.length + ' of ' + d.programs.length + ' programs';
+    if (!shown.length) { list.appendChild(text('p', 'empty', 'No programs match. Try clearing a filter.')); return; }
+    shown.forEach(function (p) {
+      var card = document.createElement('article'); card.className = 'card';
+      var h = document.createElement('h2');
+      if (p.url) { var a = text('a', '', p.institution.name); a.href = p.url; a.rel = 'noopener'; h.appendChild(a); }
+      else { h.textContent = p.institution.name; }
+      card.appendChild(h);
+      card.appendChild(text('div', 'country', p.institution.country));
+      card.appendChild(text('div', 'dept', p.home_department));
+      var tags = document.createElement('div'); tags.className = 'tags';
+      p.disciplines.forEach(function (x) { tags.appendChild(text('span', 'tag', d.disciplines[x] || x)); });
+      p.degree_types.forEach(function (x) { tags.appendChild(text('span', 'tag deg', x)); });
+      card.appendChild(tags);
+      var fac = document.createElement('div'); fac.className = 'faculty';
+      fac.appendChild(text('span', '', 'DBER faculty: '));
+      fac.appendChild(document.createTextNode(p.dber_faculty.map(function (f) { return f.name; }).join(', ')));
+      card.appendChild(fac);
+      if (p.needs_check && p.needs_check.length) {
+        card.appendChild(text('div', 'check', 'To be confirmed: ' + p.needs_check.join(', ').replace(/_/g, ' ')));
+      }
+      card.appendChild(text('div', 'meta', 'Last confirmed ' + p.last_verified));
+      list.appendChild(card);
+    });
+  }
+  fetch('programs.json').then(function (r) { return r.json(); }).then(function (d) {
+    state.data = d;
+    var discs = {}, degs = {}, ctrys = {};
+    d.programs.forEach(function (p) {
+      p.disciplines.forEach(function (x) { discs[x] = 1; });
+      p.degree_types.forEach(function (x) { degs[x] = 1; });
+      ctrys[p.institution.country] = 1;
+    });
+    var order = ['BS', 'MA', 'MS', 'MEd', 'MAT', 'EdD', 'PhD', 'Certificate'];
+    fill(el('discipline'), Object.keys(discs).sort(), d.disciplines);
+    fill(el('degree'), order.filter(function (x) { return degs[x]; }));
+    fill(el('country'), Object.keys(ctrys).sort());
+    ['q', 'discipline', 'degree', 'country'].forEach(function (id) { el(id).addEventListener('input', render); });
+    render();
+  }).catch(function () {
+    el('count').textContent = 'The program list could not be loaded.';
+  });
+})();
+</script>
+</body>
+</html>

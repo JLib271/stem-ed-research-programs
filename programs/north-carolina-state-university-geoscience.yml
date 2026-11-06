@@ -1,0 +1,12 @@
+id: north-carolina-state-university-geoscience
+institution:
+  name: North Carolina State University
+  country: United States
+home_department: Department of Marine, Earth, and Atmospheric Sciences
+degree_types: [MS, PhD]
+disciplines: [geoscience]
+dber_faculty:
+  - name: David McConnell
+url: http://www.meas.ncsu.edu/
+source: https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/
+last_verified: 2026-11-06

@@ -1,0 +1,13 @@
+id: university-of-canterbury-geoscience
+institution:
+  name: University of Canterbury
+  country: New Zealand
+home_department: School of Earth and Environment, with the College of Education
+degree_types: [MS, PhD]
+disciplines: [geoscience]
+dber_faculty:
+  - name: Ben Kennedy
+  - name: Sara Tolbert
+url: http://www.geol.canterbury.ac.nz/Geoscience_Education/Index.shtml
+source: https://geocognitionresearchlaboratory.com/graduate-study/geocognition-geoscience-education-research-programs/
+last_verified: 2026-11-06

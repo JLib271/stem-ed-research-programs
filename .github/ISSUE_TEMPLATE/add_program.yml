@@ -1,0 +1,75 @@
+name: Add a program
+description: Suggest a graduate program where students can do STEM+ education research.
+title: "Add: <institution>, <discipline>"
+labels: ["add program"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! A maintainer will check the details and add the program. Please do not include email addresses or other contact details.
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      description: University or college name, and country.
+      placeholder: Example University, United States
+    validations:
+      required: true
+  - type: input
+    id: home_department
+    attributes:
+      label: Home department
+      description: The department, school, or institute that grants the degree. Add partner units after "with".
+      placeholder: Department of Chemistry, with the College of Education
+    validations:
+      required: true
+  - type: checkboxes
+    id: degree_types
+    attributes:
+      label: Degree types
+      options:
+        - label: BS
+        - label: MA
+        - label: MS
+        - label: MEd
+        - label: MAT
+        - label: EdD
+        - label: PhD
+        - label: Certificate
+  - type: dropdown
+    id: disciplines
+    attributes:
+      label: Discipline
+      multiple: true
+      options:
+        - Astronomy
+        - Biology
+        - Chemistry
+        - Computer science
+        - Engineering
+        - Geoscience
+        - Mathematics
+        - Physics
+        - Statistics
+        - STEM (interdisciplinary)
+        - Other (say which below)
+    validations:
+      required: true
+  - type: textarea
+    id: dber_faculty
+    attributes:
+      label: DBER faculty
+      description: Faculty who supervise education research students, one per line. List only people who agree to be listed or whom the program lists publicly.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Program or research group web page (optional)
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Where this information comes from, for example the program's web page, or "I am faculty in this program."
+    validations:
+      required: true
