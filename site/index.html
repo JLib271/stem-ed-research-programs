@@ -274,7 +274,7 @@
     });
     markExternal(ul);
   }
-  fetch('programs.json').then(function (r) { return r.json(); }).then(function (d) {
+  fetch('programs.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
     state.data = d;
     renderOther(d.other_lists);
     markExternal(document);
