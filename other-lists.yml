@@ -42,13 +42,18 @@
 
 - field: History and philosophy of science, and science and technology studies
   disciplines: [history_philosophy_of_science]
-  title: STS Programs at Colleges and Universities
-  url: https://www.wesleyan.edu/sts/programs.html
-  maintainer: Science in Society Program, Wesleyan University
-
-- field: Science and health communication
-  disciplines: [science_health_communication]
   note: >-
-    No maintained list found yet. The Council for the Advancement of Science Writing's
-    [resources page](https://showcase.casw.org/?p=43) names prominent U.S. science
-    journalism graduate programs.
+    No maintained list found yet. The History of Science Society's former online guide to
+    graduate programs is no longer available.
+
+- field: Science communication
+  disciplines: [science_health_communication]
+  title: Worldwide database of programmes and courses in science communication
+  url: https://www.pcst.network/teaching-forum/science-communication-programmes-and-courses/
+  maintainer: Public Communication of Science and Technology (PCST) Network
+
+- field: Health communication
+  disciplines: [science_health_communication]
+  title: Degrees and Certificates in Health Communication (master's and certificates)
+  url: https://www.societyforhealthcommunication.org/degrees-and-certificates
+  maintainer: Society for Health Communication
