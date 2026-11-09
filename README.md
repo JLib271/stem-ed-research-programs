@@ -9,6 +9,9 @@ engineering, mathematics, medicine, and the health professions. It includes:
 * **Science, mathematics, and STEM education** programs in schools and colleges of education
 * **Medical and health professions education** research in medical, nursing, pharmacy,
   and other health professions schools
+* **History and philosophy of science** (including science and technology studies and the
+  history of medicine) and **science and health communication**, as fields in their own
+  right as well as in teaching
 
 These programs sit in many different kinds of departments, so they are hard to find by
 searching for "STEM education." This list brings them together in one place.
@@ -23,7 +26,7 @@ Each program records five things:
 | **Institution** | University or college, and country |
 | **Home department** | The department, school, or institute that grants the degree, and any partner units |
 | **Degree types** | BS, MA, MS, MEd, MAT, MHPE, EdD, PhD, or Certificate |
-| **Discipline** | Agriculture, Bioscience, Chemistry, Earth Science, Engineering, Health Education (including medical and health professions education), Learning Science, Mathematics, Physics, or Science Education. These match the [STEMEd+ Jobs](https://github.com/JLib271/stemed-jobs) categories. |
+| **Discipline** | Agriculture, Bioscience, Chemistry, Earth Science, Engineering, Health Education (including medical and health professions education), History & Philosophy of Science, Learning Science, Mathematics, Physics, Science & Health Communication, or Science Education. These are the STEMEd+ disciplines shared with [STEMEd+ Jobs](https://github.com/JLib271/stemed-jobs), Funding, and the Digest, kept in [HuMeta](https://github.com/JLib271/HuMeta) (`standard/humeta/stemedplus_disciplines.json`). |
 | **Education research faculty** | Faculty who supervise education research students |
 
 🔎 **Search and filter the list:** https://jlib271.github.io/stem-ed-research-programs/
@@ -81,6 +84,8 @@ _Generated from `other-lists.yml` by `scripts/build.py`._
 | Mathematics | No public list found yet. Lists of programs in research in undergraduate mathematics education (RUME) are shared on the [RUME mailing list](https://groups.google.com/g/rume_list). | |
 | Engineering | No public list found yet. | |
 | Medicine and health professions | No maintained list found yet. FAIMER's directory of health professions education master's and PhD programs is no longer maintained. [Kulo and Cestone (2022)](https://doi.org/10.1186/s12909-022-03937-z) describe 20 doctoral programs in the US and Canada. | |
+| History and philosophy of science, and science and technology studies | [STS Programs at Colleges and Universities](https://www.wesleyan.edu/sts/programs.html) | Science in Society Program, Wesleyan University |
+| Science and health communication | No maintained list found yet. The Council for the Advancement of Science Writing's [resources page](https://showcase.casw.org/?p=43) names prominent U.S. science journalism graduate programs. | |
 <!-- other-lists:end -->
 
 Know of another list, or maintain one? [Open an issue](../../issues/new/choose) so we can link to it.
