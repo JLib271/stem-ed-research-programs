@@ -13,12 +13,14 @@ That includes:
 * medical and health professions education research in medical, nursing, pharmacy, and other
   health professions schools
 * history and philosophy of science (including science and technology studies and the history
-  of medicine), and science and health communication (including risk and climate communication,
-  public engagement, and science journalism). For these two fields, research in the field
-  itself qualifies, not only education research.
+  of medicine), human dimensions (the social science of people and the environment: human
+  dimensions of natural resources, forestry, wildlife, and climate change), and science and health
+  communication (including risk and climate communication, public engagement, and science
+  journalism). For these three fields, research in the field itself qualifies, not only
+  education research.
 
 A program qualifies when named faculty supervise graduate students doing education research
-(or, for the two fields above, research in the field).
+(or, for the three fields above, research in the field).
 Programs that train educators without a research component, such as teaching certificates
 alone, do not belong here.
 
