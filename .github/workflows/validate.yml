@@ -22,6 +22,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Refresh shared disciplines from HuMeta
+        run: python scripts/stemedplus_disciplines.py --refresh schema/stemedplus_disciplines.json
       - name: Check every program file
         run: python scripts/build.py --validate
       - name: Update the README tables

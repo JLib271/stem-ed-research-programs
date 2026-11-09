@@ -42,7 +42,7 @@ institution:
   # ror: https://ror.org/0xxxxxxxx   # optional ROR identifier
 home_department: Department of Chemistry   # add partner units after "with"
 degree_types: [MS, PhD]                    # BS, MA, MS, MEd, MAT, MHPE, EdD, PhD, Certificate
-disciplines: [chemistry]                   # ids from schema/disciplines.json
+disciplines: [chemistry]                   # ids from schema/stemedplus_disciplines.json
 faculty:
   - name: Firstname Lastname
 url: https://example.edu/chem-ed           # optional: program, group, or department page

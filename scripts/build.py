@@ -18,7 +18,12 @@ from jsonschema import Draft202012Validator, FormatChecker
 ROOT = Path(__file__).resolve().parent.parent
 PROGRAMS = ROOT / "programs"
 SCHEMA = json.loads((ROOT / "schema" / "program.schema.json").read_text(encoding="utf-8"))
-DISCIPLINES = json.loads((ROOT / "schema" / "disciplines.json").read_text(encoding="utf-8"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import stemedplus_disciplines as shared  # noqa: E402  (the list shared across STEMEd+ Commons)
+
+DISCIPLINE_FILE = ROOT / "schema" / "stemedplus_disciplines.json"
+DISCIPLINES = shared.labels_by_id(DISCIPLINE_FILE)
+ISSUE_FORM = ROOT / ".github" / "ISSUE_TEMPLATE" / "add_program.yml"
 README = ROOT / "README.md"
 SITE_DATA = ROOT / "site" / "programs.json"
 START, END = "<!-- programs:start -->", "<!-- programs:end -->"
@@ -58,8 +63,9 @@ def load_programs() -> tuple[list[dict], list[str]]:
         for d in record.get("disciplines") or []:
             if d not in DISCIPLINES:
                 errors.append(f"{name}: unknown discipline {d!r}; use one of {sorted(DISCIPLINES)} "
-                              "or propose a new one in schema/disciplines.json")
+                              "(the STEMEd+ disciplines in schema/stemedplus_disciplines.json, kept in HuMeta)")
         programs.append(record)
+    errors.extend(issue_form_errors())
     seen: dict[tuple, str] = {}
     for r in programs:
         key = ((r.get("institution") or {}).get("name"), (r.get("home_department") or "").lower(),
@@ -68,6 +74,15 @@ def load_programs() -> tuple[list[dict], list[str]]:
             errors.append(f"programs/{r.get('id')}.yml duplicates programs/{seen[key]}.yml")
         seen[key] = r.get("id")
     return programs, errors
+
+
+def issue_form_errors() -> list[str]:
+    """The "Add a program" form must offer every STEMEd+ discipline."""
+    form = yaml.safe_load(ISSUE_FORM.read_text(encoding="utf-8"))
+    options = next((f["attributes"]["options"] for f in form.get("body", []) if f.get("id") == "disciplines"), [])
+    offered = {str(o).split(" (")[0] for o in options}
+    return [f"{ISSUE_FORM.relative_to(ROOT).as_posix()}: the Discipline list is missing {label!r}"
+            for label in DISCIPLINES.values() if label not in offered]
 
 
 def load_other_lists() -> tuple[list[dict], list[str]]:

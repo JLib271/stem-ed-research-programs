@@ -1,5 +1,5 @@
 # Lists of programs maintained elsewhere. scripts/build.py puts these in the README
-# and on the website. Each entry: field; disciplines (ids from schema/disciplines.json,
+# and on the website. Each entry: field; disciplines (ids from schema/stemedplus_disciplines.json,
 # so the website can show the list when someone picks that discipline); and either a
 # list (title, url, maintainer) or a note when no maintained list exists.
 # Notes may link with [text](url).

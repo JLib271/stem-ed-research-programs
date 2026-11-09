@@ -26,6 +26,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Refresh shared disciplines from HuMeta
+        run: python scripts/stemedplus_disciplines.py --refresh schema/stemedplus_disciplines.json
       - run: python scripts/build.py
       - uses: actions/upload-pages-artifact@v5
         with:

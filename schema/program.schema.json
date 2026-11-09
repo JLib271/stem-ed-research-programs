@@ -68,7 +68,7 @@
       }
     },
     "disciplines": {
-      "description": "Term ids from schema/disciplines.json.",
+      "description": "Ids from schema/stemedplus_disciplines.json (the STEMEd+ disciplines kept in HuMeta).",
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
