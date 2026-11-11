@@ -200,7 +200,7 @@
       fac.appendChild(document.createTextNode(p.faculty.map(function (f) { return f.name; }).join(', ')));
       card.appendChild(fac);
       var ppl = document.createElement('div'); ppl.className = 'people';
-      var pl = text('a', '', 'People here in STEMEd+ Collaborators');
+      var pl = text('a', '', 'Find collaborators at ' + p.institution.name);
       pl.href = COLLAB + '?at=' + encodeURIComponent(p.institution.name);
       ppl.appendChild(pl); card.appendChild(ppl);
       if (p.needs_check && p.needs_check.length) {
