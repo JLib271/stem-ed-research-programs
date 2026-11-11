@@ -29,6 +29,7 @@
   .card h2 { font-size: 1.05rem; margin: 0; }
   .card h2 a { color: var(--accent); text-decoration: none; }
   .card h2 a:hover { text-decoration: underline; }
+  .card .people { font-size: .9rem; }
   .country { color: var(--muted); font-size: 0.85rem; }
   .dept { margin: 2px 0; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0; }
@@ -156,6 +157,7 @@
 (function () {
   var state = { data: null };
   var MAINTAINER = 'libarkin@msu.edu', REPO = 'https://github.com/JLib271/stem-ed-research-programs';
+  var COLLAB = 'https://jlib271.github.io/stemed-collaborators/';
   var el = function (id) { return document.getElementById(id); };
   function text(tag, cls, value) { var n = document.createElement(tag); if (cls) n.className = cls; n.textContent = value; return n; }
   function fill(select, values, labels) {
@@ -197,6 +199,10 @@
       fac.appendChild(text('span', '', 'Education research faculty: '));
       fac.appendChild(document.createTextNode(p.faculty.map(function (f) { return f.name; }).join(', ')));
       card.appendChild(fac);
+      var ppl = document.createElement('div'); ppl.className = 'people';
+      var pl = text('a', '', 'People here in STEMEd+ Collaborators');
+      pl.href = COLLAB + '?at=' + encodeURIComponent(p.institution.name);
+      ppl.appendChild(pl); card.appendChild(ppl);
       if (p.needs_check && p.needs_check.length) {
         card.appendChild(text('div', 'check', 'To be confirmed: ' + p.needs_check.join(', ').replace(/_/g, ' ')));
       }
