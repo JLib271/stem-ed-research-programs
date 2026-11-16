@@ -200,7 +200,7 @@
       p.degree_types.forEach(function (x) { tags.appendChild(text('span', 'tag deg', x)); });
       card.appendChild(tags);
       var fac = document.createElement('div'); fac.className = 'faculty';
-      fac.appendChild(text('span', '', 'Education research faculty: '));
+      fac.appendChild(text('span', '', 'Program faculty: '));
       fac.appendChild(document.createTextNode(p.faculty.map(function (f) { return f.name; }).join(', ')));
       card.appendChild(fac);
       var ppl = document.createElement('div'); ppl.className = 'people';
@@ -247,7 +247,7 @@
       'Home department: ' + p.home_department,
       'Degrees: ' + p.degree_types.join(', '),
       'Discipline: ' + p.disciplines.map(function (x) { return d.disciplines[x] || x; }).join(', '),
-      'Education research faculty: ' + p.faculty.map(function (f) { return f.name; }).join(', '),
+      'Program faculty: ' + p.faculty.map(function (f) { return f.name; }).join(', '),
       'Web page: ' + (p.url || '(none)')].join('\n');
   }
   function updateMail(p) {
