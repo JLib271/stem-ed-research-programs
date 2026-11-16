@@ -39,15 +39,15 @@ The list starts with Earth Science (geoscience) education research programs, car
 Chemistry education research programs were added in November 2026, with permission from
 Maia Popova (University of North Carolina at Greensboro), from the
 [map of CER graduate programs](https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o).
-Faculty names started from Stacey Lowery Bretz's [Chemistry Education Research Graduate Programs](https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs)
-list and were checked against university web pages.
+Faculty names were checked against the [Chemistry Education Research Graduate Programs](https://chem.uncg.edu/popova/cer-website/)
+list, created by Dr. Stacey Lowery Bretz (Ohio Northern University) and maintained by Dr. Maia Popova (University of North Carolina at Greensboro), and against university web pages.
 Mathematics education programs were added in November 2026, with permission from
 Shandy Hauk (SIGMAA on RUME Archivist), from her [Math Ed PhD programs list](https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ).
 Faculty names were looked up on university web pages.
 Programs in other fields, including medical and health professions education, are welcome. See [Add or update a program](#add-or-update-a-program).
 
 <!-- programs:start -->
-_Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 134 programs. ⚠️ marks details still to be confirmed with the program._
+_Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 136 programs. ⚠️ marks details still to be confirmed with the program._
 
 | Institution | Home department | Degrees | Discipline | Program faculty |
 |---|---|---|---|---|
@@ -68,12 +68,12 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [East Carolina University](https://chemistry.ecu.edu)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Joi Walker |
 | Florida Atlantic University<br><sub>United States</sub> | Department of Curriculum and Instruction, College of Education | PhD ⚠️ | Mathematics | Joseph M. Furner, Ruya Savuran, Ronald Persin |
 | [Florida Institute of Technology](https://www.fit.edu/mathematics-and-systems-engineering/#grad)<br><sub>United States</sub> | Department of Mathematics and Systems Engineering (PhD in STEM Education) | PhD | Mathematics | Joo Young Park |
-| [Florida International University](https://case.fiu.edu/chemistry/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Justin Carmel, Sonia Underwood |
+| [Florida International University](https://case.fiu.edu/chemistry/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Sonia Underwood |
 | [Georgia State University](https://chemistry.gsu.edu/graduate/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Suazette Mooring |
-| [Illinois State University](https://chemistry.illinoisstate.edu/academics/)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Sarah Boesdorfer, Willy Hunter |
+| [Illinois State University](https://chemistry.illinoisstate.edu/academics/)<br><sub>United States</sub> | Department of Chemistry | MS, MA | Chemistry | Sarah Boesdorfer, Willy Hunter |
 | [Illinois State University](https://math.illinoisstate.edu/academics/math-education-phd/)<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Jeffrey Barrett, Amanda Cullen, Craig Cullen, Dave Barker, Matthew Winsor |
 | [Indiana University Bloomington](https://education.indiana.edu/programs/graduate/doctoral/index.html)<br><sub>United States</sub> | Department of Curriculum and Instruction, School of Education | PhD | Mathematics | Amy Hackenberg, Erik Jacobson, Sarah Theule Lubienski, Erik Tillema |
-| [Indiana University Indianapolis](https://science.iupui.edu/chemistry/academics/degrees-and-programs/index.html)<br><sub>United States</sub> | Department of Chemistry and Chemical Biology | MS, PhD ⚠️ | Chemistry | Lyniesha Ward |
+| [Indiana University Indianapolis](https://science.iupui.edu/chemistry/academics/degrees-and-programs/index.html)<br><sub>United States</sub> | Department of Chemistry and Chemical Biology | MS, PhD | Chemistry | Lyniesha Ward |
 | [Indiana University Indianapolis](https://science.iupui.edu/earthsciences/research/faculty-labs/education-research/index.html)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | BS, MS, PhD | Earth Science | Samuel “Sammy” Nyarko |
 | [Indiana University Indianapolis](https://science.indianapolis.iu.edu/academics/degrees-and-programs/_degrees/mathematical-sciences-phd-iupui-mathsciphd.html)<br><sub>United States</sub> | Department of Mathematical Sciences | PhD ⚠️ | Mathematics | Jeffrey Watt |
 | [Iowa State University](https://www.chem.iastate.edu/graduate-student-info)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Thomas Holme |
@@ -81,7 +81,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [Kent State University](https://www.kent.edu/ci/curriculum-and-instruction-phd)<br><sub>United States</sub> | School of Teaching, Learning and Curriculum Studies | PhD | Mathematics | Joanne Caniglia, Scott Courtney, Sonya E. Irving, Karl W. Kosko, Julia Stoll, Maryam Zolfaghari |
 | [Louisiana State University](https://www.lsu.edu/science/chemistry/academics/graduate/index.php)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Zakiya Wilson-Kennedy, Rabi Ann Musah |
 | [Louisiana State University](https://www.lsu.edu/chse/education/academics/graduate/phd/index.php)<br><sub>United States</sub> | School of Education (PhD in Curriculum and Instruction) | PhD | Mathematics | David Kirshner |
-| [Loyola University Chicago](https://www.luc.edu/chemistry/graduate_program.shtml)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Patrick Daubenmire |
+| [Loyola University Chicago](https://www.luc.edu/chemistry/graduate_program.shtml)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Patrick Daubenmire, Murat Kahveci |
 | [Miami University](https://sites.google.com/miamioh.edu/yezierski/cer-graduate-program)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Ellen Yezierski |
 | [Michigan State University](https://www.chemistry.msu.edu/graduate-program/prospective-students/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Melanie Cooper, Nicole Becker |
 | [Michigan State University](https://geocognitionresearchlaboratory.wordpress.com/graduate-study/graduate-study-in-the-grl/)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | MS, PhD | Earth Science | Julie Libarkin |
@@ -89,10 +89,10 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [Middle Tennessee State University](https://www.mtsu.edu/programs/math-science-education-phd/index.php)<br><sub>United States</sub> | Mathematics and Science Education PhD program, with the Department of Chemistry | PhD | Chemistry | Kathryn Hosbein, Amy Phelps, Gregory Rushton, Michael Sanger |
 | [Middle Tennessee State University](https://www.mtsu.edu/programs/math-science-education-phd/index.php)<br><sub>United States</sub> | Mathematics and Science Education PhD program, with the Department of Mathematical Sciences | PhD | Mathematics | Jennifer Kaplan, Jennifer Lovett |
 | [Mississippi State University](http://www.geosciences.msstate.edu/)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Renee Clary, Athena Owen Nagel, Kathy Sherman-Morris |
-| [Missouri State University](https://chemistry.missouristate.edu/graduateeducation/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, MEd ⚠️ | Chemistry | Gautam Bhattacharyya, Bryan Breyfogle |
+| [Missouri State University](https://chemistry.missouristate.edu/graduateeducation/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MEd | Chemistry | Gautam Bhattacharyya, Bryan Breyfogle |
 | [Montana State University](https://math.montana.edu/)<br><sub>United States</sub> | Department of Mathematical Sciences | PhD | Mathematics | Elizabeth Burroughs, Elizabeth Fulton, Jennifer Luebeck |
 | [Montclair State University](https://www.montclair.edu/mathematics-education-phd/)<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Nicole Panorkou, Nina Bailey |
-| [New Mexico State University](https://chemistry.nmsu.edu/students/graduate-program.html)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD ⚠️ | Chemistry | Paulette Vincent-Ruz |
+| [New Mexico State University](https://chemistry.nmsu.edu/students/graduate-program.html)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Paulette Vincent-Ruz |
 | [New Mexico State University](https://math.nmsu.edu/prospective-students/graduate.html)<br><sub>United States</sub> | Department of Mathematical Sciences | PhD | Mathematics | Patricia Baggett |
 | [New York University](https://steinhardt.nyu.edu/degree/phd-teaching-and-learning/mathematics-education)<br><sub>United States</sub> | Department of Teaching and Learning, Steinhardt School | PhD | Mathematics | Jasmine Y. Ma |
 | [North Carolina State University](http://www.meas.ncsu.edu/)<br><sub>United States</sub> | Department of Marine, Earth, and Atmospheric Sciences | MS, PhD | Earth Science | David McConnell |
@@ -100,18 +100,19 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [North Dakota State University](https://www.ndsu.edu/csme/stem_education_graduate_programs/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry, with the Center for Science and Mathematics Education ⚠️ | MS, PhD | Chemistry | Alexey Leontyev, James Nyachwaya |
 | [Northern Illinois University](https://sites.google.com/view/nicole-ladues-vger-lab)<br><sub>United States</sub> | Department of Earth, Atmosphere and Environment | MS, PhD | Earth Science | Nicole LaDue |
 | [Northern Illinois University](https://www.niu.edu/math/academics/graduate/doctorate.shtml)<br><sub>United States</sub> | Department of Mathematical Sciences | PhD | Mathematics | Rachel Rupnow, Bárbara González |
-| [Ohio State University](https://chemistry.osu.edu/research/research-areas/chemistry-education)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | PhD | Chemistry | Josie Nardo, Ted Clark, Matthew Wu |
+| [Ohio State University](https://chemistry.osu.edu/research/research-areas/chemistry-education)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Josie Nardo, Ted Clark, Matthew Wu |
 | [Ohio University](https://www.ohio.edu/education/teacher-ed/doctorate/mathematics)<br><sub>United States</sub> | Department of Teacher Education, Patton College of Education | PhD | Mathematics | Gregory Foley, Allyson Hallman-Thrasher, Mathew Felton-Koestler, Courtney Koestler |
+| [Oklahoma State University](https://cas.okstate.edu/chemistry/graduate_students.html)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Jacinta Mutambuki |
 | [Oklahoma State University](https://math.okstate.edu/)<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Michael Oehrtman, Michael Tallman, John Paul Cook |
 | [Oregon State University](https://math.oregonstate.edu/graduate/phd-program)<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Elise Lockwood, Mary Beisiegel |
-| [Portland State University](https://www.pdx.edu/chemistry/graduate-program-chemistry-education-research)<br><sub>United States</sub> | Department of Chemistry | PhD | Chemistry | Jack Barbera, Gwen Shusterman |
+| [Portland State University](https://www.pdx.edu/chemistry/graduate-program-chemistry-education-research)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Jack Barbera, Gwen Shusterman |
 | [Portland State University](https://www.pdx.edu/math/)<br><sub>United States</sub> | Fariborz Maseeh Department of Mathematics and Statistics | PhD | Mathematics | Eva Thanheiser, Sean Larsen, Steven Boyce |
 | [Rutgers University–New Brunswick](https://gse.rutgers.edu/program/mathematics-education/)<br><sub>United States</sub> | Department of Learning and Teaching, Graduate School of Education | PhD | Mathematics | Dan Battey, Gerald A. Goldin, Carolyn A. Maher, Juan Pablo Mejía Ramos, Arthur B. Powell, Keith Weber |
 | [Sam Houston State University](https://www.shsu.edu/academics/chemistry/graduate-chemistry.html)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Adrian Villalta-Cerdas |
 | [San Diego State University](https://www.chemistry.sdsu.edu/graduate/degrees.php#jdp)<br><sub>United States</sub> | Department of Chemistry and Biochemistry, with the University of California San Diego (joint doctoral program) | MA, MS, PhD | Chemistry | Regis Komperda |
 | [San Diego State University](https://crmse.sdsu.edu/students/msed-2)<br><sub>United States</sub> | Department of Mathematics and Statistics, with the University of California San Diego (joint doctoral program in Mathematics and Science Education) | PhD | Mathematics | Naneh Apkarian, Victoria Delaney, Susan Nickerson, Mary Pilgrim, Chris Rasmussen, Daniel Reinholz, William Zahner |
-| [San Jose State University](http://www.sjsu.edu/chemistry/Academic_Programs/Graduate_Programs/)<br><sub>United States</sub> | Department of Chemistry | MA | Chemistry | Resa Kelly |
-| [South Dakota State University](https://www.sdstate.edu/chemistry-biochemistry/chemistry-graduate-programs)<br><sub>United States</sub> | Department of Chemistry, Biochemistry and Physics | MS, PhD | Chemistry | Matt Miller |
+| [San Jose State University](http://www.sjsu.edu/chemistry/Academic_Programs/Graduate_Programs/)<br><sub>United States</sub> | Department of Chemistry | MA, MS | Chemistry | Resa Kelly |
+| [South Dakota State University](https://www.sdstate.edu/chemistry-biochemistry/chemistry-graduate-programs)<br><sub>United States</sub> | Department of Chemistry, Biochemistry and Physics | MS, PhD | Chemistry | Matt Miller, Jay Shore |
 | [Southern Illinois University Edwardsville](https://www.siue.edu/academics/graduate/degrees-and-programs/chemistry/)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Susan Wiediger |
 | [Syracuse University](https://artsandsciences.syracuse.edu/mathematics/graduate-studies/)<br><sub>United States</sub> | School of Education, in cooperation with the Department of Mathematics | PhD | Mathematics | Nicole Fonger, Duane Graysay, Joanna Masingila |
 | [Teachers College, Columbia University](https://www.tc.columbia.edu/mathematics-science-and-technology/mathematics-education/)<br><sub>United States</sub> | Department of Mathematics, Science and Technology | EdD, PhD ⚠️ | Mathematics | Alexander Karp, Irina Lyublinskaya, Erica Walker, Nicholas Wasserman |
@@ -142,6 +143,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [University of Louisville](https://louisville.edu/chemistry/academics/graduate-studies)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Morgan Balabanoff |
 | [University of Maryland](https://education.umd.edu/research/centers/mathed/graduate-degrees/doctoral-degree)<br><sub>United States</sub> | Department of Teaching and Learning, Policy and Leadership (Center for Mathematics Education) | PhD, EdD | Mathematics | Daniel Chazan, Janet Walkoe |
 | [University of Massachusetts Amherst](https://www.umass.edu/education/academics/phd-math-science-learning-technologies/program-study)<br><sub>United States</sub> | Department of Teacher Education and Curriculum Studies (PhD in Math, Science & Learning Technologies) | PhD | Mathematics | Darrell Earnest, John Francisco, Patricia Fuentes Acevedo |
+| [University of Massachusetts Boston](https://www.umb.edu/science-mathematics/academic-departments/chemistry/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Hannah Sevian |
 | [University of Massachusetts Dartmouth](https://www.umassd.edu/mathedphd/)<br><sub>United States</sub> | Department of STEM Education and Teacher Development (PhD in STEM Education, mathematics education concentration) ⚠️ | PhD | Mathematics | Beste Gucler, Chandra Orrill |
 | [University of Michigan](https://lsa.umich.edu/chem/research/ChemistryEducation.html)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Ginger Shultz |
 | [University of Michigan](https://marsal.umich.edu/academics-admissions/degrees/doctoral/educational-studies)<br><sub>United States</sub> | Marsal Family School of Education (PhD in Educational Studies) | PhD | Mathematics | Deborah Loewenberg Ball, Hyman Bass, Vilma Mesa |
@@ -152,12 +154,12 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [University of Montana](https://www.umt.edu/math/research/math-education.php)<br><sub>United States</sub> | Department of Mathematical Sciences | PhD | Mathematics | Frederick Peck, Matt Roscoe, Bharath Sriraman, Ke Wu |
 | [University of Nebraska-Lincoln](https://chem.unl.edu/research-first-philosophy)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Eric Malina |
 | [University of Nebraska-Lincoln](https://math.unl.edu/mathematics-education)<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Kristen Amman, Yvonne Lai, Wendy Smith |
-| [University of Nevada, Las Vegas](https://www.unlv.edu/chemistry/graduate-programs)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | MaryKay Orgill |
+| [University of Nevada, Las Vegas](https://www.unlv.edu/chemistry/graduate-programs)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | MaryKay Orgill, Guizella A. Rocabado |
 | [University of New Hampshire](https://ceps.unh.edu/chemistry/program/phd/chemistry-chemistry-education)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Christopher Bauer |
 | [University of New Hampshire](https://www.unh.edu/program/doctor-philosophy/mathematics-education)<br><sub>United States</sub> | Department of Mathematics and Statistics | PhD | Mathematics | Karen Graham, Sharon McCrone, Sharee Sharpe |
 | [University of North Carolina Wilmington](https://uncw.edu/academics/colleges/cse/departments/chemistry/graduate-programs)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS | Chemistry | Nathaniel Grove |
 | [University of North Carolina at Charlotte](https://academics.charlotte.edu/program/curriculum-and-instruction-urban-math-concentration-ph-d-on-campus/)<br><sub>United States</sub> | Department of Mathematics and Statistics, with the Cato College of Education (PhD in Curriculum and Instruction, urban mathematics education concentration) | PhD | Mathematics | Anthony Fernandes, Allison McCulloch, Michelle Stephan, Travis Weiland |
-| [University of North Carolina at Greensboro](https://chem.uncg.edu/graduate/message-from-the-director/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Maia Popova, Jerry Walsh |
+| [University of North Carolina at Greensboro](https://chem.uncg.edu/graduate/message-from-the-director/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Maia Popova |
 | [University of North Texas](https://chemistry.unt.edu/research/chemistry-education)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Molly Atkinson, Alena Moon |
 | [University of Northern Colorado](https://unco.smartcatalogiq.com/en/current/Graduate-Catalog/Graduate-Programs/Doctoral-Degrees/Chemical-Education-PhD)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | PhD | Chemistry | Melissa Weinrich, Corina Brown |
 | [University of Northern Colorado](https://www.unco.edu/programs/mathematics-education-phd/)<br><sub>United States</sub> | Department of Mathematical Sciences | PhD | Mathematics | Gulden Karakok, Jodie Novak, Robert Powers, Lindsay Reiten, Jocelyn Rios |
@@ -166,7 +168,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [University of Rhode Island](https://placeslab.stemedplus.org/)<br><sub>United States</sub> | College of the Environment and Life Sciences (Biological and Environmental Sciences) | MS, PhD | Earth Science | Carolina Michel |
 | [University of Rhode Island](https://www.math.uri.edu/academics/)<br><sub>United States</sub> | Department of Mathematics and Applied Mathematical Sciences | PhD | Mathematics | Irma Stevens |
 | [University of South Carolina](http://www.seoe.sc.edu/)<br><sub>United States</sub> | School of the Earth, Ocean and Environment | MS, PhD | Earth Science | Katherine Ryker |
-| [University of South Florida](https://www.usf.edu/arts-sciences/departments/chemistry/graduate/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Jennifer Lewis, Scott Lewis, Jeff Raker, Ying Wang |
+| [University of South Florida](https://www.usf.edu/arts-sciences/departments/chemistry/graduate/)<br><sub>United States</sub> | Department of Chemistry | MS, MA, PhD | Chemistry | Jennifer Lewis, Scott Lewis, Jeff Raker, Ying Wang |
 | [University of South Florida](http://geology.usf.edu/prospective/geosci/)<br><sub>United States</sub> | School of Geosciences ⚠️ | MS, PhD | Earth Science | Jeff Ryan, H.L. (Len) Vacher |
 | [University of Texas Rio Grande Valley](https://www.utrgv.edu/chemistry/graduate/index.htm)<br><sub>United States</sub> | Department of Chemistry ⚠️ | MS | Chemistry | K. Christopher Smith |
 | [University of Texas Rio Grande Valley](https://utrgv.smartcatalogiq.com/en/2025-2026/graduate-catalog/graduate-academic-programs-by-college/college-of-sciences/school-of-mathematical-and-statistical-sciences/mathematics-and-statistics-with-interdisciplinary-applications-phd)<br><sub>United States</sub> | School of Mathematical and Statistical Sciences | PhD | Mathematics | Mayra Ortiz Galarza |
@@ -204,7 +206,7 @@ _Generated from `other-lists.yml` by `scripts/build.py`._
 | Field | List | Maintained by |
 |---|---|---|
 | Biology | [Graduate Programs in Biology Education Research](https://saberbio.wildapricot.org/Graduate-Programs-in-BER) | Society for the Advancement of Biology Education Research (SABER) |
-| Chemistry | [Chemistry Education Research Graduate Programs](https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs) | Stacey Lowery Bretz, Miami University |
+| Chemistry | [Chemistry Education Research Graduate Programs](https://chem.uncg.edu/popova/cer-website/) | Created by Dr. Stacey Lowery Bretz (Ohio Northern University); maintained by Dr. Maia Popova (University of North Carolina at Greensboro) |
 | Physics | [PER Programs](https://www.per-central.org/programs/) | PER Central (programs register themselves) |
 | Mathematics | [Math Ed PhD programs](https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ) | Shandy Hauk, SIGMAA on RUME Archivist |
 | Engineering | No public list found yet. | |

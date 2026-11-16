@@ -3,7 +3,7 @@ institution:
   name: University of South Florida
   country: United States
 home_department: Department of Chemistry
-degree_types: [MS, PhD]
+degree_types: [MS, MA, PhD]
 disciplines: [chemistry]
 faculty:
   - name: Jennifer Lewis

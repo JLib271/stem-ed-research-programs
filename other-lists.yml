@@ -1,7 +1,7 @@
 # Lists of programs maintained elsewhere. scripts/build.py puts these in the README
 # and on the website. Each entry: field; disciplines (ids from schema/stemedplus_disciplines.json,
 # so the website can show the list when someone picks that discipline); and either a
-# list (title, url, maintainer) or a note when no maintained list exists.
+# list (title, url, maintainer, and optionally created_by) or a note when no maintained list exists.
 # Notes may link with [text](url).
 
 - field: Biology
@@ -13,8 +13,9 @@
 - field: Chemistry
   disciplines: [chemistry]
   title: Chemistry Education Research Graduate Programs
-  url: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
-  maintainer: Stacey Lowery Bretz, Miami University
+  url: https://chem.uncg.edu/popova/cer-website/
+  created_by: Dr. Stacey Lowery Bretz (Ohio Northern University)
+  maintainer: Dr. Maia Popova (University of North Carolina at Greensboro)
 
 - field: Physics
   disciplines: [physics]

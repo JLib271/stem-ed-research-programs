@@ -3,7 +3,7 @@ institution:
   name: Portland State University
   country: United States
 home_department: Department of Chemistry
-degree_types: [PhD]
+degree_types: [MS, PhD]
 disciplines: [chemistry]
 faculty:
   - name: Jack Barbera

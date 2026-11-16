@@ -104,7 +104,8 @@ def other_lists_table(entries: list[dict]) -> str:
     rows = ["| Field | List | Maintained by |", "|---|---|---|"]
     for e in entries:
         if e.get("url"):
-            rows.append(f"| {_md(e['field'])} | [{_md(e['title'])}]({e['url']}) | {_md(e['maintainer'])} |")
+            by = f"Created by {e['created_by']}; maintained by {e['maintainer']}" if e.get("created_by") else e["maintainer"]
+            rows.append(f"| {_md(e['field'])} | [{_md(e['title'])}]({e['url']}) | {_md(by)} |")
         else:
             rows.append(f"| {_md(e['field'])} | {_md(' '.join(e['note'].split()))} | |")
     return f"{OTHER_START}\n_Generated from `other-lists.yml` by `scripts/build.py`._\n\n" + "\n".join(rows) + f"\n{OTHER_END}"

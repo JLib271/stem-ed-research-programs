@@ -1,0 +1,13 @@
+id: oklahoma-state-university-chemistry
+institution:
+  name: Oklahoma State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Jacinta Mutambuki
+url: https://cas.okstate.edu/chemistry/graduate_students.html
+source: https://chem.uncg.edu/popova/cer-website/
+last_verified: 2026-11-16
+needs_check: [faculty]
