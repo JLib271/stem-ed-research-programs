@@ -115,7 +115,7 @@ def _md(text: str) -> str:
 
 
 def readme_table(programs: list[dict]) -> str:
-    rows = ["| Institution | Home department | Degrees | Discipline | Education research faculty |",
+    rows = ["| Institution | Home department | Degrees | Discipline | Program faculty |",
             "|---|---|---|---|---|"]
     for r in sorted(programs, key=lambda r: (r["institution"]["name"], r["id"])):
         inst = _md(r["institution"]["name"])
