@@ -1,0 +1,14 @@
+id: university-of-alabama-at-birmingham-chemistry
+institution:
+  name: University of Alabama at Birmingham
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Joe March
+  - name: Jacqueline Nikles
+url: https://www.uab.edu/cas/chemistry/graduate
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16
+needs_check: [faculty]

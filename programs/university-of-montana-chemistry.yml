@@ -1,0 +1,12 @@
+id: university-of-montana-chemistry
+institution:
+  name: University of Montana
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Mark Cracolice
+url: https://hs.umt.edu/chemistry/graduate/default.php
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

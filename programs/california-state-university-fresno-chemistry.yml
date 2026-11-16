@@ -1,0 +1,13 @@
+id: california-state-university-fresno-chemistry
+institution:
+  name: "California State University, Fresno"
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Dermot Donnelly-Hermosillo
+  - name: Eric Person
+url: https://www.fresnostate.edu/catalog/subjects/chemistry-and-biochemistry/chem-ms.html
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

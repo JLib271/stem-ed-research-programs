@@ -1,0 +1,12 @@
+id: loyola-university-chicago-chemistry
+institution:
+  name: Loyola University Chicago
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Patrick Daubenmire
+url: https://www.luc.edu/chemistry/graduate_program.shtml
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

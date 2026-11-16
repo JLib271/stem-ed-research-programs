@@ -1,0 +1,12 @@
+id: san-diego-state-university-chemistry
+institution:
+  name: San Diego State University
+  country: United States
+home_department: "Department of Chemistry and Biochemistry, with the University of California San Diego (joint doctoral program)"
+degree_types: [MA, MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Regis Komperda
+url: https://www.chemistry.sdsu.edu/graduate/degrees.php#jdp
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

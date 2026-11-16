@@ -1,0 +1,13 @@
+id: university-of-mississippi-chemistry
+institution:
+  name: University of Mississippi
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Abby Boyd
+url: https://olemiss.edu/chemistry/research/chemical-education/
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16
+needs_check: [faculty]

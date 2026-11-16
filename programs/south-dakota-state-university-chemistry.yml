@@ -1,0 +1,12 @@
+id: south-dakota-state-university-chemistry
+institution:
+  name: South Dakota State University
+  country: United States
+home_department: "Department of Chemistry, Biochemistry and Physics"
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Matt Miller
+url: https://www.sdstate.edu/chemistry-biochemistry/chemistry-graduate-programs
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

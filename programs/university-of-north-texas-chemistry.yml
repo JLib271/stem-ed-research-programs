@@ -1,0 +1,13 @@
+id: university-of-north-texas-chemistry
+institution:
+  name: University of North Texas
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Molly Atkinson
+  - name: Alena Moon
+url: https://chemistry.unt.edu/research/chemistry-education
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

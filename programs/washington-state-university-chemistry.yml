@@ -1,0 +1,13 @@
+id: washington-state-university-chemistry
+institution:
+  name: Washington State University
+  country: United States
+home_department: School of Molecular Biosciences (biochemistry)
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Erika Offerdahl
+url: https://smb.wsu.edu/academic-training/graduate-studies/phd-and-ms
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16
+needs_check: [faculty]

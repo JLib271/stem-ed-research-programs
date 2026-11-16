@@ -1,0 +1,13 @@
+id: university-of-wisconsin-madison-chemistry
+institution:
+  name: University of Wisconsin-Madison
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Sam Pazicni
+  - name: Ryan Stowe
+url: https://chem.wisc.edu/ph-d-requirements/
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

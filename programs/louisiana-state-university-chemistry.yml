@@ -1,0 +1,13 @@
+id: louisiana-state-university-chemistry
+institution:
+  name: Louisiana State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Zakiya Wilson-Kennedy
+  - name: Rabi Ann Musah
+url: https://www.lsu.edu/science/chemistry/academics/graduate/index.php
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

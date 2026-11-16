@@ -1,0 +1,13 @@
+id: university-of-iowa-chemistry
+institution:
+  name: University of Iowa
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Renée Cole
+  - name: Jordan Harshman
+url: https://chem.uiowa.edu/graduate
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

@@ -1,0 +1,13 @@
+id: michigan-state-university-chemistry
+institution:
+  name: Michigan State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Melanie Cooper
+  - name: Nicole Becker
+url: https://www.chemistry.msu.edu/graduate-program/prospective-students/
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

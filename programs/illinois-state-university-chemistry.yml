@@ -1,0 +1,13 @@
+id: illinois-state-university-chemistry
+institution:
+  name: Illinois State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Sarah Boesdorfer
+  - name: Willy Hunter
+url: https://chemistry.illinoisstate.edu/academics/
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

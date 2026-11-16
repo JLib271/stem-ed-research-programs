@@ -1,0 +1,12 @@
+id: university-of-virginia-chemistry
+institution:
+  name: University of Virginia
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Marilyne Stains
+url: https://chemistry.as.virginia.edu/graduate
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

@@ -1,0 +1,12 @@
+id: university-of-new-hampshire-chemistry
+institution:
+  name: University of New Hampshire
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Christopher Bauer
+url: https://ceps.unh.edu/chemistry/program/phd/chemistry-chemistry-education
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

@@ -1,0 +1,14 @@
+id: university-of-central-florida-chemistry
+institution:
+  name: University of Central Florida
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Nicole Lapeyrouse
+  - name: Christopher Randles
+  - name: Erin Saitta
+url: https://sciences.ucf.edu/chemistry/graduate/
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

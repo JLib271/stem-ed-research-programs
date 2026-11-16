@@ -1,0 +1,12 @@
+id: iowa-state-university-chemistry
+institution:
+  name: Iowa State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Thomas Holme
+url: https://www.chem.iastate.edu/graduate-student-info
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

@@ -1,0 +1,14 @@
+id: north-dakota-state-university-chemistry
+institution:
+  name: North Dakota State University
+  country: United States
+home_department: "Department of Chemistry and Biochemistry, with the Center for Science and Mathematics Education"
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Alexey Leontyev
+  - name: James Nyachwaya
+url: https://www.ndsu.edu/csme/stem_education_graduate_programs/
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16
+needs_check: [home_department]
