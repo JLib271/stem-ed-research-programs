@@ -7,6 +7,7 @@ degree_types: [PhD]
 disciplines: [mathematics]
 faculty:
   - name: David Slavit
+url: https://math.wsu.edu/
 source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
 last_verified: 2026-11-16
 needs_check: [faculty, home_department]

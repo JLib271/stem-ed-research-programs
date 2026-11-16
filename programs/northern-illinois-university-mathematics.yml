@@ -8,6 +8,7 @@ disciplines: [mathematics]
 faculty:
   - name: Rachel Rupnow
   - name: Bárbara González
+url: https://www.niu.edu/math/academics/graduate/doctorate.shtml
 source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
 last_verified: 2026-11-16
 needs_check: [faculty]

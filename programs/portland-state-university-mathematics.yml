@@ -9,6 +9,7 @@ faculty:
   - name: Eva Thanheiser
   - name: Sean Larsen
   - name: Steven Boyce
+url: https://www.pdx.edu/math/
 source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
 last_verified: 2026-11-16
 needs_check: [faculty]

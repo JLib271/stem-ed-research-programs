@@ -29,6 +29,10 @@
   .card h2 { font-size: 1.05rem; margin: 0; }
   .card h2 a { color: var(--accent); text-decoration: none; }
   .card h2 a:hover { text-decoration: underline; }
+  .card.linked { position: relative; cursor: pointer; transition: border-color .15s, box-shadow .15s; }
+  .card.linked:hover, .card.linked:focus-within { border-color: var(--accent); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .card.linked h2 a::after { content: ""; position: absolute; inset: 0; border-radius: 8px; }
+  .card.linked .meta { position: relative; z-index: 1; cursor: auto; }
   .country { color: var(--muted); font-size: 0.85rem; }
   .dept { margin: 2px 0; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0; }
@@ -187,7 +191,7 @@
       return;
     }
     shown.forEach(function (p) {
-      var card = document.createElement('article'); card.className = 'card';
+      var card = document.createElement('article'); card.className = p.url ? 'card linked' : 'card';
       var h = document.createElement('h2');
       if (p.url) { var a = text('a', '', p.institution.name); a.href = p.url; a.rel = 'noopener'; h.appendChild(a); }
       else { h.textContent = p.institution.name; }
