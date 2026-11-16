@@ -1,0 +1,13 @@
+id: university-of-alabama-mathematics
+institution:
+  name: University of Alabama
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Jim Gleason
+url: https://math.ua.edu/research-overview/mathematics-education
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

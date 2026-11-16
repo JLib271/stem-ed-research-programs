@@ -1,0 +1,13 @@
+id: syracuse-university-mathematics
+institution:
+  name: Syracuse University
+  country: United States
+home_department: "School of Education, in cooperation with the Department of Mathematics"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Nicole Fonger
+  - name: Duane Graysay
+  - name: Joanna Masingila
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

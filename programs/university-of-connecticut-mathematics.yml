@@ -1,0 +1,18 @@
+id: university-of-connecticut-mathematics
+institution:
+  name: University of Connecticut
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Fabiana Cardetti
+  - name: Andrew Jaramillo
+  - name: Alvaro Lozano-Robledo
+  - name: David McArdle
+  - name: Tom Roby
+  - name: Amit Savkar
+url: https://math.uconn.edu/research-areas/mathematics-education
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

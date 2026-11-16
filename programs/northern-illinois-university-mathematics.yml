@@ -1,0 +1,13 @@
+id: northern-illinois-university-mathematics
+institution:
+  name: Northern Illinois University
+  country: United States
+home_department: Department of Mathematical Sciences
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Rachel Rupnow
+  - name: Bárbara González
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

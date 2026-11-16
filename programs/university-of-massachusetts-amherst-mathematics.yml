@@ -1,0 +1,14 @@
+id: university-of-massachusetts-amherst-mathematics
+institution:
+  name: University of Massachusetts Amherst
+  country: United States
+home_department: "Department of Teacher Education and Curriculum Studies (PhD in Math, Science & Learning Technologies)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Darrell Earnest
+  - name: John Francisco
+  - name: Patricia Fuentes Acevedo
+url: https://www.umass.edu/education/academics/phd-math-science-learning-technologies/program-study
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

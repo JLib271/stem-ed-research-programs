@@ -1,0 +1,14 @@
+id: auburn-university-mathematics
+institution:
+  name: Auburn University
+  country: United States
+home_department: "Department of Curriculum and Teaching, College of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Marilyn Strutchens
+  - name: W. Gary Martin
+url: https://education.auburn.edu/academic-programs/mathematics-education.php
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

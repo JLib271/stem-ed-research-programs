@@ -1,0 +1,12 @@
+id: florida-institute-of-technology-mathematics
+institution:
+  name: Florida Institute of Technology
+  country: United States
+home_department: "Department of Mathematics and Systems Engineering (PhD in STEM Education)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Joo Young Park
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

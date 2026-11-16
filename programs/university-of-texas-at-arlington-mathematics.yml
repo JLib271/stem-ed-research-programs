@@ -1,0 +1,14 @@
+id: university-of-texas-at-arlington-mathematics
+institution:
+  name: University of Texas at Arlington
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: James Álvarez
+  - name: Theresa Jorgensen
+url: https://www.uta.edu/academics/programs/mathematics-phd
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

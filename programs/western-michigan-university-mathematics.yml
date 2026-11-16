@@ -1,0 +1,15 @@
+id: western-michigan-university-mathematics
+institution:
+  name: Western Michigan University
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Theresa Grant
+  - name: Jane-Jane Lo
+  - name: Tabitha Mingus
+  - name: Laura Van Zoest
+url: https://wmich.edu/math/academics/doctorate
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

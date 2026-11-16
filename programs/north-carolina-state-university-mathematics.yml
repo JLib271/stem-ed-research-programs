@@ -1,0 +1,17 @@
+id: north-carolina-state-university-mathematics
+institution:
+  name: North Carolina State University
+  country: United States
+home_department: "Department of STEM Education, College of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Robin Anderson
+  - name: Karen Hollebrands
+  - name: Erin Krupa
+  - name: Hollylynne Lee
+  - name: Temple Walkowiak
+url: https://ced.ncsu.edu/graduate/programs/doctoral/mathematics-and-statistics-education/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

@@ -1,0 +1,14 @@
+id: university-of-maryland-mathematics
+institution:
+  name: University of Maryland
+  country: United States
+home_department: "Department of Teaching and Learning, Policy and Leadership (Center for Mathematics Education)"
+degree_types: [PhD, EdD]
+disciplines: [mathematics]
+faculty:
+  - name: Daniel Chazan
+  - name: Janet Walkoe
+url: https://education.umd.edu/research/centers/mathed/graduate-degrees/doctoral-degree
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

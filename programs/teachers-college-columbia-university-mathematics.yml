@@ -1,0 +1,16 @@
+id: teachers-college-columbia-university-mathematics
+institution:
+  name: "Teachers College, Columbia University"
+  country: United States
+home_department: "Department of Mathematics, Science and Technology"
+degree_types: [EdD, PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Alexander Karp
+  - name: Irina Lyublinskaya
+  - name: Erica Walker
+  - name: Nicholas Wasserman
+url: https://www.tc.columbia.edu/mathematics-science-and-technology/mathematics-education/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [degree_types]

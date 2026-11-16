@@ -1,0 +1,14 @@
+id: university-of-new-hampshire-mathematics
+institution:
+  name: University of New Hampshire
+  country: United States
+home_department: Department of Mathematics and Statistics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Karen Graham
+  - name: Sharon McCrone
+  - name: Sharee Sharpe
+url: https://www.unh.edu/program/doctor-philosophy/mathematics-education
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

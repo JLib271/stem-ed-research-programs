@@ -24,9 +24,9 @@
 
 - field: Mathematics
   disciplines: [mathematics]
-  note: >-
-    No public list found yet. Lists of programs in research in undergraduate mathematics
-    education (RUME) are shared on the [RUME mailing list](https://groups.google.com/g/rume_list).
+  title: Math Ed PhD programs
+  url: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+  maintainer: Shandy Hauk, SIGMAA on RUME Archivist
 
 - field: Engineering
   disciplines: [engineering]

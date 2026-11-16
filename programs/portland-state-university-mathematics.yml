@@ -1,0 +1,14 @@
+id: portland-state-university-mathematics
+institution:
+  name: Portland State University
+  country: United States
+home_department: Fariborz Maseeh Department of Mathematics and Statistics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Eva Thanheiser
+  - name: Sean Larsen
+  - name: Steven Boyce
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

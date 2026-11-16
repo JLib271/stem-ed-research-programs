@@ -1,0 +1,13 @@
+id: louisiana-state-university-mathematics
+institution:
+  name: Louisiana State University
+  country: United States
+home_department: "School of Education (PhD in Curriculum and Instruction)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: David Kirshner
+url: https://www.lsu.edu/chse/education/academics/graduate/phd/index.php
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

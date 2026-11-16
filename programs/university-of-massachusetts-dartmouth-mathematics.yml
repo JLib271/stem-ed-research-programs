@@ -1,0 +1,14 @@
+id: university-of-massachusetts-dartmouth-mathematics
+institution:
+  name: University of Massachusetts Dartmouth
+  country: United States
+home_department: "Department of STEM Education and Teacher Development (PhD in STEM Education, mathematics education concentration)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Beste Gucler
+  - name: Chandra Orrill
+url: https://www.umassd.edu/mathedphd/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty, home_department]

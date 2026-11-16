@@ -1,0 +1,12 @@
+id: indiana-university-indianapolis-mathematics
+institution:
+  name: Indiana University Indianapolis
+  country: United States
+home_department: Department of Mathematical Sciences
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Jeffrey Watt
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty, degree_types]

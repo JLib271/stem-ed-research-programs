@@ -14,3 +14,7 @@ The chemistry records were added with permission from Maia Popova (University of
 at Greensboro), from the [map of CER graduate programs](https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o).
 Faculty names started from Stacey Lowery Bretz's list of
 [Chemistry Education Research Graduate Programs](https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs).
+
+The mathematics education records were added with permission from Shandy Hauk (SIGMAA on RUME
+Archivist), from her [Math Ed PhD programs list](https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ).
+Faculty names were looked up on university web pages.

@@ -1,0 +1,13 @@
+id: university-of-texas-rio-grande-valley-mathematics
+institution:
+  name: University of Texas Rio Grande Valley
+  country: United States
+home_department: School of Mathematical and Statistical Sciences
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Mayra Ortiz Galarza
+url: https://utrgv.smartcatalogiq.com/en/2025-2026/graduate-catalog/graduate-academic-programs-by-college/college-of-sciences/school-of-mathematical-and-statistical-sciences/mathematics-and-statistics-with-interdisciplinary-applications-phd
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

@@ -1,0 +1,13 @@
+id: new-york-university-mathematics
+institution:
+  name: New York University
+  country: United States
+home_department: "Department of Teaching and Learning, Steinhardt School"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Jasmine Y. Ma
+url: https://steinhardt.nyu.edu/degree/phd-teaching-and-learning/mathematics-education
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

@@ -1,0 +1,14 @@
+id: virginia-tech-mathematics
+institution:
+  name: Virginia Tech
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Estrella Johnson
+  - name: Anderson Norton
+  - name: Megan Wawro
+url: https://www.math.vt.edu/research/math-ed-research/math-ed-phd.html
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

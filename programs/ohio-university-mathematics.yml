@@ -1,0 +1,15 @@
+id: ohio-university-mathematics
+institution:
+  name: Ohio University
+  country: United States
+home_department: "Department of Teacher Education, Patton College of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Gregory Foley
+  - name: Allyson Hallman-Thrasher
+  - name: Mathew Felton-Koestler
+  - name: Courtney Koestler
+url: https://www.ohio.edu/education/teacher-ed/doctorate/mathematics
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

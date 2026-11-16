@@ -1,0 +1,17 @@
+id: kent-state-university-mathematics
+institution:
+  name: Kent State University
+  country: United States
+home_department: "School of Teaching, Learning and Curriculum Studies"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Joanne Caniglia
+  - name: Scott Courtney
+  - name: Sonya E. Irving
+  - name: Karl W. Kosko
+  - name: Julia Stoll
+  - name: Maryam Zolfaghari
+url: https://www.kent.edu/ci/curriculum-and-instruction-phd
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

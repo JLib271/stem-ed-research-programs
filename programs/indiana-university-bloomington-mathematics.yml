@@ -1,0 +1,15 @@
+id: indiana-university-bloomington-mathematics
+institution:
+  name: Indiana University Bloomington
+  country: United States
+home_department: "Department of Curriculum and Instruction, School of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Amy Hackenberg
+  - name: Erik Jacobson
+  - name: Sarah Theule Lubienski
+  - name: Erik Tillema
+url: https://education.indiana.edu/programs/graduate/doctoral/index.html
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
