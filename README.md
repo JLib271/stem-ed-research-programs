@@ -60,7 +60,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [East Carolina University](https://chemistry.ecu.edu)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Joi Walker |
 | [Florida International University](https://case.fiu.edu/chemistry/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Justin Carmel, Sonia Underwood |
 | [Georgia State University](https://chemistry.gsu.edu/graduate/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Suazette Mooring |
-| [Illinois State University](https://chemistry.illinoisstate.edu/academics/)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Sarah Boesdorfer |
+| [Illinois State University](https://chemistry.illinoisstate.edu/academics/)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Sarah Boesdorfer, Willy Hunter |
 | [Indiana University Indianapolis](https://science.iupui.edu/chemistry/academics/degrees-and-programs/index.html)<br><sub>United States</sub> | Department of Chemistry and Chemical Biology | MS, PhD ⚠️ | Chemistry | Lyniesha Ward |
 | [Indiana University Indianapolis](https://science.iupui.edu/earthsciences/research/faculty-labs/education-research/index.html)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | BS, MS, PhD | Earth Science | Samuel “Sammy” Nyarko |
 | [Iowa State University](https://www.chem.iastate.edu/graduate-student-info)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Thomas Holme |
