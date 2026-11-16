@@ -196,7 +196,7 @@
       card.appendChild(h);
       card.appendChild(text('div', 'country', p.institution.country));
       card.appendChild(text('div', 'dept', p.home_department));
-      if (p.closed_to_new_students) card.appendChild(text('div', 'closed', 'Closed to new students in ' + p.closed_to_new_students));
+      if (p.closed_to_new_students) card.appendChild(text('div', 'closed', 'Closed to new students'));
       var tags = document.createElement('div'); tags.className = 'tags';
       p.disciplines.forEach(function (x) { tags.appendChild(text('span', 'tag', d.disciplines[x] || x)); });
       p.degree_types.forEach(function (x) { tags.appendChild(text('span', 'tag deg', x)); });
@@ -251,7 +251,7 @@
       'Discipline: ' + p.disciplines.map(function (x) { return d.disciplines[x] || x; }).join(', '),
       'Program faculty: ' + p.faculty.map(function (f) { return f.name; }).join(', '),
       'Web page: ' + (p.url || '(none)')]
-      .concat(p.closed_to_new_students ? ['Closed to new students in ' + p.closed_to_new_students] : []).join('\n');
+      .concat(p.closed_to_new_students ? ['Closed to new students'] : []).join('\n');
   }
   function updateMail(p) {
     var body = 'Listing: ' + p.id + '\n\nWhat would you like to do? (correct a detail / confirm it is still correct / add or remove a faculty member / remove the program because it no longer exists)\n\n' +

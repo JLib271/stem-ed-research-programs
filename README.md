@@ -84,7 +84,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | Miami University<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Ellen Yezierski |
 | [Michigan State University](https://www.chemistry.msu.edu/graduate-program/prospective-students/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Melanie Cooper, Nicole Becker |
 | [Michigan State University](https://geocognitionresearchlaboratory.wordpress.com/graduate-study/graduate-study-in-the-grl/)<br><sub>United States</sub> | Department of Earth and Environmental Sciences | MS, PhD | Earth Science | Julie Libarkin |
-| Michigan State University<br><sub>United States</sub><br><sub>Closed to new students in 2026</sub> | Program in Mathematics Education (PRIME), joint with the College of Education | PhD | Mathematics | Beth Herbel-Eisenmann, Matthew Voigt, Taylor McNeill, Kristen Vroom, Jennifer Green |
+| Michigan State University<br><sub>United States</sub><br><sub>Closed to new students</sub> | Program in Mathematics Education (PRIME), joint with the College of Education | PhD | Mathematics | Beth Herbel-Eisenmann, Matthew Voigt, Taylor McNeill, Kristen Vroom, Jennifer Green |
 | [Middle Tennessee State University](https://www.mtsu.edu/programs/math-science-education-phd/index.php)<br><sub>United States</sub> | Mathematics and Science Education PhD program, with the Department of Chemistry | PhD | Chemistry | Kathryn Hosbein, Amy Phelps, Gregory Rushton, Michael Sanger |
 | [Middle Tennessee State University](https://www.mtsu.edu/programs/math-science-education-phd/index.php)<br><sub>United States</sub> | Mathematics and Science Education PhD program, with the Department of Mathematical Sciences | PhD | Mathematics | Jennifer Kaplan, Jennifer Lovett |
 | [Mississippi State University](http://www.geosciences.msstate.edu/)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Renee Clary, Athena Owen Nagel, Kathy Sherman-Morris |
@@ -233,8 +233,8 @@ Each program is one YAML file in [`programs/`](programs/), checked against
 [`schema/program.schema.json`](schema/program.schema.json). Each file also records
 where its information came from (`source`) and when someone last confirmed it
 (`last_verified`). Fields that still need confirming are listed in `needs_check` and marked ⚠️ above.
-A program that is not taking students can carry `closed_to_new_students: YEAR`, shown as
-"Closed to new students in YEAR".
+A program that is not taking new students can carry `closed_to_new_students: true`, shown as
+"Closed to new students". Remove the line when the program reopens.
 
 * Program data (`programs/`): [CC BY 4.0](programs/LICENSE.md)
 * Code (`scripts/`, `site/`, workflows): [MIT](LICENSE)

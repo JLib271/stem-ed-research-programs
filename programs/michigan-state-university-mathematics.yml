@@ -11,6 +11,6 @@ faculty:
   - name: Taylor McNeill
   - name: Kristen Vroom
   - name: Jennifer Green
-closed_to_new_students: 2026
+closed_to_new_students: true
 source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
 last_verified: 2026-11-16

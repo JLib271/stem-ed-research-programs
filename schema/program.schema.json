@@ -101,10 +101,8 @@
       "pattern": "^https?://"
     },
     "closed_to_new_students": {
-      "description": "Optional. Year the program is closed to new students, shown as \"Closed to new students in YEAR\". Remove it when the program reopens.",
-      "type": "integer",
-      "minimum": 2000,
-      "maximum": 2100
+      "description": "Optional. Set to true when the program is not taking new students; shown as \"Closed to new students\". Remove it when the program reopens.",
+      "type": "boolean"
     },
     "source": {
       "description": "Where this information came from (a web page, or 'Submitted by <name>, <role>').",
