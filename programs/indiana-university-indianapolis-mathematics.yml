@@ -7,6 +7,7 @@ degree_types: [PhD]
 disciplines: [mathematics]
 faculty:
   - name: Jeffrey Watt
+url: https://science.indianapolis.iu.edu/academics/degrees-and-programs/_degrees/mathematical-sciences-phd-iupui-mathsciphd.html
 source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
 last_verified: 2026-11-16
 needs_check: [faculty, degree_types]
