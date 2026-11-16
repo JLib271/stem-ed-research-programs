@@ -1,0 +1,12 @@
+id: georgia-state-university-chemistry
+institution:
+  name: Georgia State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Suazette Mooring
+url: https://chemistry.gsu.edu/graduate/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

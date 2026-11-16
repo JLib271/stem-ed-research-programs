@@ -1,0 +1,12 @@
+id: sam-houston-state-university-chemistry
+institution:
+  name: Sam Houston State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Adrian Villalta-Cerdas
+url: https://www.shsu.edu/academics/chemistry/graduate-chemistry.html
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

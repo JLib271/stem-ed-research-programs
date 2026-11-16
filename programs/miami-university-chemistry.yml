@@ -1,0 +1,11 @@
+id: miami-university-chemistry
+institution:
+  name: Miami University
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Ellen Yezierski
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

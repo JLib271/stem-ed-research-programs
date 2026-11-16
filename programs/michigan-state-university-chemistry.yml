@@ -1,0 +1,12 @@
+id: michigan-state-university-chemistry
+institution:
+  name: Michigan State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Melanie Cooper
+url: https://www.chemistry.msu.edu/graduate-program/prospective-students/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

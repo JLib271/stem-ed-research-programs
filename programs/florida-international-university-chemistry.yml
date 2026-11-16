@@ -1,0 +1,13 @@
+id: florida-international-university-chemistry
+institution:
+  name: Florida International University
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Justin Carmel
+  - name: Sonia Underwood
+url: https://case.fiu.edu/chemistry/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

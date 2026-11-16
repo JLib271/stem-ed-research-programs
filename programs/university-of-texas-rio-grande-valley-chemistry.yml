@@ -1,0 +1,13 @@
+id: university-of-texas-rio-grande-valley-chemistry
+institution:
+  name: University of Texas Rio Grande Valley
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: K. Christopher Smith
+url: https://www.utrgv.edu/chemistry/graduate/index.htm
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16
+needs_check: [home_department]

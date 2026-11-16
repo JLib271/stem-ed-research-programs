@@ -1,0 +1,14 @@
+id: university-of-illinois-chicago-chemistry
+institution:
+  name: University of Illinois Chicago
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Minjung Ryu
+  - name: Mike Stieff
+  - name: Donald Wink
+url: https://chem.uic.edu/graduate-studies/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

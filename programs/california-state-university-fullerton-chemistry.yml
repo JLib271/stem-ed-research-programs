@@ -1,0 +1,14 @@
+id: california-state-university-fullerton-chemistry
+institution:
+  name: "California State University, Fullerton"
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Julia Chan
+  - name: Barbara Gonzalez
+  - name: Sachel Villafañe-Garcia
+url: http://www.fullerton.edu/chemistry/programs/graduate/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

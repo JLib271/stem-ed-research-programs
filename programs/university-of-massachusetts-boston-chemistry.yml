@@ -1,0 +1,12 @@
+id: university-of-massachusetts-boston-chemistry
+institution:
+  name: University of Massachusetts Boston
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Hannah Sevian
+url: https://www.umb.edu/academics/csm/chemistry/grad
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

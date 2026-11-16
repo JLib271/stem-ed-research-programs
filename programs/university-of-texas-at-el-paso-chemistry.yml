@@ -1,0 +1,12 @@
+id: university-of-texas-at-el-paso-chemistry
+institution:
+  name: University of Texas at El Paso
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Elizabeth Day
+url: https://www.utep.edu/science/chemistry/academic-programs/graduate/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

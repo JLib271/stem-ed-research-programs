@@ -1,0 +1,12 @@
+id: california-state-university-northridge-chemistry
+institution:
+  name: "California State University, Northridge"
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Li Ye
+url: https://www.csun.edu/science-mathematics/chemistry-biochemistry/graduate-program-information
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

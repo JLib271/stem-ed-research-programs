@@ -1,0 +1,12 @@
+id: university-of-arizona-chemistry
+institution:
+  name: University of Arizona
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Vicente Talanquer
+url: https://cbc.arizona.edu/education/graduate/grad-chemphd
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

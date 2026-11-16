@@ -1,0 +1,12 @@
+id: university-of-minnesota-duluth-chemistry
+institution:
+  name: University of Minnesota Duluth
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Jacob Wainman
+url: https://scse.d.umn.edu/about/departments-and-programs/chemistry-biochemistry-department/graduate-programs
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

@@ -1,0 +1,13 @@
+id: western-washington-university-chemistry
+institution:
+  name: Western Washington University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Erin Duffy
+  - name: Norda Stephenson
+url: https://chemistry.wwu.edu/graduate-program
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

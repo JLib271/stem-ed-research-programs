@@ -1,0 +1,13 @@
+id: university-of-north-carolina-at-greensboro-chemistry
+institution:
+  name: University of North Carolina at Greensboro
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Maia Popova
+  - name: Jerry Walsh
+url: https://chem.uncg.edu/graduate/message-from-the-director/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

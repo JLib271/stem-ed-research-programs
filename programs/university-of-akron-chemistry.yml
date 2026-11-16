@@ -1,0 +1,12 @@
+id: university-of-akron-chemistry
+institution:
+  name: University of Akron
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Bill Donovan
+url: https://www.uakron.edu/chemistry/graduate.dot
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

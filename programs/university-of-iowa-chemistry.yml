@@ -1,0 +1,13 @@
+id: university-of-iowa-chemistry
+institution:
+  name: University of Iowa
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Nicole Becker
+  - name: Renée Cole
+url: https://chem.uiowa.edu/graduate
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

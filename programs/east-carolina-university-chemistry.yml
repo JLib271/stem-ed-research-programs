@@ -1,0 +1,12 @@
+id: east-carolina-university-chemistry
+institution:
+  name: East Carolina University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Joi Walker
+url: https://chemistry.ecu.edu
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

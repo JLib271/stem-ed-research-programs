@@ -1,0 +1,12 @@
+id: california-state-university-sacramento-chemistry
+institution:
+  name: "California State University, Sacramento"
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Yujuan Liu
+url: https://www.csus.edu/college/natural-sciences-mathematics/chemistry/grad-program.html
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

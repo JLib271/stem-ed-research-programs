@@ -1,0 +1,12 @@
+id: san-jose-state-university-chemistry
+institution:
+  name: San Jose State University
+  country: United States
+home_department: Department of Chemistry
+degree_types: [MA]
+disciplines: [chemistry]
+faculty:
+  - name: Resa Kelly
+url: http://www.sjsu.edu/chemistry/Academic_Programs/Graduate_Programs/
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16

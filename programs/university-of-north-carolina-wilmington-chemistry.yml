@@ -1,0 +1,11 @@
+id: university-of-north-carolina-wilmington-chemistry
+institution:
+  name: University of North Carolina Wilmington
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [MS]
+disciplines: [chemistry]
+faculty:
+  - name: Nathaniel Grove
+source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+last_verified: 2026-11-16
