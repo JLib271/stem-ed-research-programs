@@ -47,7 +47,7 @@ Faculty names were looked up on university web pages.
 Programs in other fields, including medical and health professions education, are welcome. See [Add or update a program](#add-or-update-a-program).
 
 <!-- programs:start -->
-_Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 133 programs. ⚠️ marks details still to be confirmed with the program._
+_Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 134 programs. ⚠️ marks details still to be confirmed with the program._
 
 | Institution | Home department | Degrees | Discipline | Program faculty |
 |---|---|---|---|---|
@@ -117,7 +117,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [Teachers College, Columbia University](https://www.tc.columbia.edu/mathematics-science-and-technology/mathematics-education/)<br><sub>United States</sub> | Department of Mathematics, Science and Technology | EdD, PhD ⚠️ | Mathematics | Alexander Karp, Irina Lyublinskaya, Erica Walker, Nicholas Wasserman |
 | [Texas State University](https://math.txstate.edu/programs-degrees/phd/faculty-research.html)<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Jennifer Czocher, Paul Dawkins, Brittney Ellis, Hamilton Hardison, Hwa Young Lee, Kristen Lew, Kate Melhuish, Bikai Nie, Samuel Obara, Cody Patterson, Jessica Pierson-Bishop, M. Alejandra Sorto, Sharon Strickland, Hiroko Warshauer, Max Warshauer |
 | [Texas Tech University](https://www.depts.ttu.edu/chemistry/Graduate/prospective.php)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Dominick Casadonte |
-| Texas Tech University<br><sub>United States</sub> | Department of Teacher Education, College of Education | PhD ⚠️ | Mathematics | Raymond Flores, Minju Yi |
+| Texas Tech University<br><sub>United States</sub> | Department of Teacher Education, College of Education | PhD ⚠️ | Mathematics | Raymond Flores |
 | [Tufts University](https://chem.tufts.edu/grad/about.html)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Ira Caspari-Gnann |
 | [University of Akron](https://www.uakron.edu/chemistry/graduate.dot)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Bill Donovan |
 | [University of Alabama](https://math.ua.edu/research-overview/mathematics-education)<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Jim Gleason |
@@ -146,6 +146,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [University of Michigan](https://lsa.umich.edu/chem/research/ChemistryEducation.html)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Ginger Shultz |
 | [University of Michigan](https://marsal.umich.edu/academics-admissions/degrees/doctoral/educational-studies)<br><sub>United States</sub> | Marsal Family School of Education (PhD in Educational Studies) | PhD | Mathematics | Deborah Loewenberg Ball, Hyman Bass, Vilma Mesa |
 | [University of Minnesota Duluth](https://scse.d.umn.edu/about/departments-and-programs/chemistry-biochemistry-department/graduate-programs)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS | Chemistry | Jacob Wainman |
+| [University of Minnesota–Twin Cities](https://cse.umn.edu/math/mathematics-education)<br><sub>United States</sub> | School of Mathematics | PhD ⚠️ | Mathematics | Bryan Mosher, Jonathan Rogness, Mike Weimerskirch |
 | [University of Mississippi](https://olemiss.edu/chemistry/research/chemical-education/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Abby Boyd |
 | [University of Montana](https://hs.umt.edu/chemistry/graduate/default.php)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Mark Cracolice |
 | [University of Montana](https://www.umt.edu/math/research/math-education.php)<br><sub>United States</sub> | Department of Mathematical Sciences | PhD | Mathematics | Frederick Peck, Matt Roscoe, Bharath Sriraman, Ke Wu |

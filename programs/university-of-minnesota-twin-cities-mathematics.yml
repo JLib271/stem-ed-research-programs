@@ -1,0 +1,15 @@
+id: university-of-minnesota-twin-cities-mathematics
+institution:
+  name: University of Minnesota–Twin Cities
+  country: United States
+home_department: School of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Bryan Mosher
+  - name: Jonathan Rogness
+  - name: Mike Weimerskirch
+url: https://cse.umn.edu/math/mathematics-education
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [degree_types]
