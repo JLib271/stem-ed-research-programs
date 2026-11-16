@@ -120,7 +120,7 @@
       <li><strong>Home department</strong>, the unit that grants the degree</li>
       <li><strong>Degrees</strong>, for example MS and PhD</li>
       <li><strong>Discipline</strong>, from the list above</li>
-      <li><strong>Education research faculty</strong>, people who agree to be listed</li>
+      <li><strong>Program faculty</strong>, people who agree to be listed</li>
     </ol>
     <p class="actions">
       <a class="btn" id="mail-add" href="#">Email the details</a>
@@ -318,7 +318,7 @@
     fill(el('discipline'), Object.keys(d.disciplines).sort(function (a, b) { return d.disciplines[a].localeCompare(d.disciplines[b]); }), discLabels);
     var body = ['Institution and country:', 'Home department:', 'Degrees (e.g., MS, PhD):',
       'Discipline (' + Object.keys(d.disciplines).map(function (x) { return d.disciplines[x]; }).join(', ') + '):',
-      'Education research faculty (who agree to be listed):', 'Program or group web page (optional):', 'How you know this (e.g., I am faculty there):'].join('\n\n');
+      'Program faculty (who agree to be listed):', 'Program or group web page (optional):', 'How you know this (e.g., I am faculty there):'].join('\n\n');
     el('mail-add').href = 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('Add a program: STEM+ Education Research Graduate Programs') + '&body=' + encodeURIComponent(body + '\n');
     fill(el('degree'), order.filter(function (x) { return degs[x]; }));
     fill(el('country'), Object.keys(ctrys).sort());

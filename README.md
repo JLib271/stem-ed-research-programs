@@ -28,7 +28,7 @@ Each program records five things:
 | **Home department** | The department, school, or institute that grants the degree, and any partner units |
 | **Degree types** | BS, MA, MS, MEd, MAT, MHPE, EdD, PhD, or Certificate |
 | **Discipline** | Agriculture, Bioscience, Chemistry, Earth Science, Engineering, Health Education (including medical and health professions education), History & Philosophy of Science, Human Dimensions, Learning Science, Mathematics, Physics, Science & Health Communication, or Science Education. These are the STEMEd+ disciplines shared with [STEMEd+ Jobs](https://github.com/JLib271/stemed-jobs), Funding, and the Digest, kept in the [HuMeta profile](https://github.com/JLib271/humeta-profile) (`stemedplus_disciplines.json`). |
-| **Education research faculty** | Faculty who supervise education research students |
+| **Program faculty** | Faculty who supervise education research students |
 
 🔎 **Search and filter the list:** https://jlib271.github.io/stem-ed-research-programs/
 
@@ -46,7 +46,7 @@ Programs in other fields, including medical and health professions education, ar
 <!-- programs:start -->
 _Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 78 programs. ⚠️ marks details still to be confirmed with the program._
 
-| Institution | Home department | Degrees | Discipline | Education research faculty |
+| Institution | Home department | Degrees | Discipline | Program faculty |
 |---|---|---|---|---|
 | [Arizona State University](https://sese.asu.edu/research/focus-areas/science-education)<br><sub>United States</sub> | School of Earth and Space Exploration | MS, PhD | Earth Science | Darryl Reano, Molly Simon, Chris Mead, Steven Semken |
 | [Auburn University](http://www.auburn.edu/cosam/departments/geosciences/index.htm)<br><sub>United States</sub> | Department of Geosciences | MS, PhD | Earth Science | Karen McNeal |

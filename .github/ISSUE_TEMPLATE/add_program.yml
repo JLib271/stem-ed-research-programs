@@ -62,7 +62,7 @@ body:
   - type: textarea
     id: faculty
     attributes:
-      label: Education research faculty
+      label: Program faculty
       description: Faculty who supervise education research students, one per line. List only people who agree to be listed or whom the program lists publicly.
     validations:
       required: true
