@@ -1,0 +1,14 @@
+id: ohio-state-university-chemistry
+institution:
+  name: Ohio State University
+  country: United States
+home_department: Department of Chemistry and Biochemistry
+degree_types: [PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Josie Nardo
+  - name: Ted Clark
+  - name: Matthew Wu
+url: https://chemistry.osu.edu/research/research-areas/chemistry-education
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

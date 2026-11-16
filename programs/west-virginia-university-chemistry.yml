@@ -1,0 +1,14 @@
+id: west-virginia-university-chemistry
+institution:
+  name: West Virginia University
+  country: United States
+home_department: C. Eugene Bennett Department of Chemistry
+degree_types: [MS, PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Tobi Odeleye
+  - name: Michelle Richards-Babb
+  - name: Stephanie Frost
+url: https://www.chemistry.wvu.edu/research/chemical-education
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16

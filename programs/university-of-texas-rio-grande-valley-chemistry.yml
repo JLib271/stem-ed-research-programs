@@ -8,6 +8,6 @@ disciplines: [chemistry]
 faculty:
   - name: K. Christopher Smith
 url: https://www.utrgv.edu/chemistry/graduate/index.htm
-source: https://sites.google.com/miamioh.edu/bretzsl/cer-resources/cer-graduate-programs
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
 last_verified: 2026-11-16
-needs_check: [home_department]
+needs_check: [home_department, faculty]

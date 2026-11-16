@@ -1,0 +1,12 @@
+id: university-of-california-berkeley-chemistry
+institution:
+  name: "University of California, Berkeley"
+  country: United States
+home_department: "Department of Chemistry, with the Graduate Group in Science and Mathematics Education (SESAME)"
+degree_types: [PhD]
+disciplines: [chemistry]
+faculty:
+  - name: Anne Baranger
+url: https://chemistry.berkeley.edu/grad/chem
+source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
+last_verified: 2026-11-16
