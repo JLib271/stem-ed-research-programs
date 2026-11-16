@@ -47,7 +47,7 @@ Faculty names were looked up on university web pages.
 Programs in other fields, including medical and health professions education, are welcome. See [Add or update a program](#add-or-update-a-program).
 
 <!-- programs:start -->
-_Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 131 programs. ⚠️ marks details still to be confirmed with the program._
+_Generated from `programs/` by `scripts/build.py`; edit the program files, not this table. 132 programs. ⚠️ marks details still to be confirmed with the program._
 
 | Institution | Home department | Degrees | Discipline | Program faculty |
 |---|---|---|---|---|
@@ -66,6 +66,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | Colorado State University<br><sub>United States</sub> | Department of Mathematics | PhD | Mathematics | Joseph Antonides, Kelly Chappell, Jess Hagman, Hortensia Soto |
 | [Drexel University](https://drexel.edu/coas/academics/graduate-programs/chemistry/doctorate/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Daniel King |
 | [East Carolina University](https://chemistry.ecu.edu)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Joi Walker |
+| Florida Atlantic University<br><sub>United States</sub> | Department of Curriculum and Instruction, College of Education | PhD ⚠️ | Mathematics | Joseph M. Furner, Ruya Savuran, Ronald Persin |
 | Florida Institute of Technology<br><sub>United States</sub> | Department of Mathematics and Systems Engineering (PhD in STEM Education) | PhD | Mathematics | Joo Young Park |
 | [Florida International University](https://case.fiu.edu/chemistry/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Justin Carmel, Sonia Underwood |
 | [Georgia State University](https://chemistry.gsu.edu/graduate/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Suazette Mooring |
