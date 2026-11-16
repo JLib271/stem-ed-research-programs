@@ -113,7 +113,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [University of Rhode Island](https://www.chm.uri.edu/index.php/graduate-study/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Justin Pratt |
 | [University of Rhode Island](https://placeslab.stemedplus.org/)<br><sub>United States</sub> | College of the Environment and Life Sciences (Biological and Environmental Sciences) | MS, PhD | Earth Science | Carolina Michel |
 | [University of South Carolina](http://www.seoe.sc.edu/)<br><sub>United States</sub> | School of the Earth, Ocean and Environment | MS, PhD | Earth Science | Katherine Ryker |
-| [University of South Florida](https://www.usf.edu/arts-sciences/departments/chemistry/graduate/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Scott Lewis, Jeff Raker, Ying Wang |
+| [University of South Florida](https://www.usf.edu/arts-sciences/departments/chemistry/graduate/)<br><sub>United States</sub> | Department of Chemistry | MS, PhD | Chemistry | Jennifer Lewis, Scott Lewis, Jeff Raker, Ying Wang |
 | [University of South Florida](http://geology.usf.edu/prospective/geosci/)<br><sub>United States</sub> | School of Geosciences ⚠️ | MS, PhD | Earth Science | Jeff Ryan, H.L. (Len) Vacher |
 | [University of Texas Rio Grande Valley](https://www.utrgv.edu/chemistry/graduate/index.htm)<br><sub>United States</sub> | Department of Chemistry ⚠️ | MS | Chemistry | K. Christopher Smith |
 | [University of Texas at El Paso](https://www.utep.edu/science/chemistry/academic-programs/graduate/)<br><sub>United States</sub> | Department of Chemistry and Biochemistry | MS, PhD | Chemistry | Elizabeth Day |

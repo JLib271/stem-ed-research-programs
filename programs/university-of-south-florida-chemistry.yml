@@ -6,6 +6,7 @@ home_department: Department of Chemistry
 degree_types: [MS, PhD]
 disciplines: [chemistry]
 faculty:
+  - name: Jennifer Lewis
   - name: Scott Lewis
   - name: Jeff Raker
   - name: Ying Wang
