@@ -1,0 +1,14 @@
+id: boston-university-mathematics
+institution:
+  name: Boston University
+  country: United States
+home_department: "Wheelock College of Education & Human Development (PhD in Educational Studies)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Leslie Dietiker
+  - name: Meghan Shaughnessy
+url: https://www.bu.edu/wheelock/degree-program/educational-studies/phd-in-educational-studies/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

@@ -1,0 +1,16 @@
+id: michigan-state-university-mathematics
+institution:
+  name: Michigan State University
+  country: United States
+home_department: "Program in Mathematics Education (PRIME), joint with the College of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Beth Herbel-Eisenmann
+  - name: Matthew Voigt
+  - name: Taylor McNeill
+  - name: Kristen Vroom
+  - name: Jennifer Green
+closed_to_new_students: true
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

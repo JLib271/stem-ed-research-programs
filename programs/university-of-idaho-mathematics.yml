@@ -1,0 +1,13 @@
+id: university-of-idaho-mathematics
+institution:
+  name: University of Idaho
+  country: United States
+home_department: Department of Mathematics and Statistical Science
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Rob Ely
+  - name: Sarah Castle
+url: https://www.uidaho.edu/degree-finder/mathematics/phd-math
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

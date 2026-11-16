@@ -53,6 +53,7 @@ disciplines: [chemistry]                   # ids from schema/stemedplus_discipli
 faculty:
   - name: Firstname Lastname
 url: https://example.edu/chem-ed           # optional: program, group, or department page
+# closed_to_new_students: true             # optional: shown as "Closed to new students"; remove when it reopens
 source: https://example.edu/chem-ed        # where this came from, or "Submitted by <name>, <role>"
 last_verified: 2026-11-06                  # when someone last confirmed it
 # needs_check: [home_department]           # fields still to confirm with the program

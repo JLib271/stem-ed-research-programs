@@ -1,0 +1,15 @@
+id: university-of-michigan-mathematics
+institution:
+  name: University of Michigan
+  country: United States
+home_department: "Marsal Family School of Education (PhD in Educational Studies)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Deborah Loewenberg Ball
+  - name: Hyman Bass
+  - name: Vilma Mesa
+url: https://marsal.umich.edu/academics-admissions/degrees/doctoral/educational-studies
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

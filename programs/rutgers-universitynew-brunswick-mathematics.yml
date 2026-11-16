@@ -1,0 +1,17 @@
+id: rutgers-universitynew-brunswick-mathematics
+institution:
+  name: Rutgers University–New Brunswick
+  country: United States
+home_department: "Department of Learning and Teaching, Graduate School of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Dan Battey
+  - name: Gerald A. Goldin
+  - name: Carolyn A. Maher
+  - name: Juan Pablo Mejía Ramos
+  - name: Arthur B. Powell
+  - name: Keith Weber
+url: https://gse.rutgers.edu/program/mathematics-education/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

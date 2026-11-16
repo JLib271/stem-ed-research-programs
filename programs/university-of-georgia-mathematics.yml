@@ -1,0 +1,16 @@
+id: university-of-georgia-mathematics
+institution:
+  name: University of Georgia
+  country: United States
+home_department: "Department of Mathematics, Science, and Social Studies Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: AnnaMarie Conner
+  - name: Amy Ellis
+  - name: Andrew Izsák
+  - name: Kevin Moore
+url: https://coe.uga.edu/academics/degrees/phd-mathematics-education/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

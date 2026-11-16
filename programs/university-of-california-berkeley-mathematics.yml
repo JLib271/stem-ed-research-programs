@@ -1,0 +1,13 @@
+id: university-of-california-berkeley-mathematics
+institution:
+  name: "University of California, Berkeley"
+  country: United States
+home_department: "School of Education, Graduate Group in Science and Mathematics Education (SESAME)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Dor Abrahamson
+  - name: Michelle Wilkerson
+url: https://bse.berkeley.edu/admissions
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

@@ -1,0 +1,12 @@
+id: university-of-rhode-island-mathematics
+institution:
+  name: University of Rhode Island
+  country: United States
+home_department: Department of Mathematics and Applied Mathematical Sciences
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Irma Stevens
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

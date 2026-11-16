@@ -122,6 +122,8 @@ def readme_table(programs: list[dict]) -> str:
         if r.get("url"):
             inst = f"[{inst}]({r['url']})"
         inst += f"<br><sub>{_md(r['institution']['country'])}</sub>"
+        if r.get("closed_to_new_students"):
+            inst += "<br><sub>Closed to new students</sub>"
         dept = _md(r["home_department"]) + (" ⚠️" if "home_department" in r.get("needs_check", []) else "")
         degrees = ", ".join(r["degree_types"]) + (" ⚠️" if "degree_types" in r.get("needs_check", []) else "")
         disc = ", ".join(DISCIPLINES[d] for d in r["disciplines"])

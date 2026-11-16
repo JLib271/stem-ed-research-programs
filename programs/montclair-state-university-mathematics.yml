@@ -1,0 +1,12 @@
+id: montclair-state-university-mathematics
+institution:
+  name: Montclair State University
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Nicole Panorkou
+  - name: Nina Bailey
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

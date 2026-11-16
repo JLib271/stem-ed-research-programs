@@ -100,6 +100,10 @@
       "format": "uri",
       "pattern": "^https?://"
     },
+    "closed_to_new_students": {
+      "description": "Optional. Set to true when the program is not taking new students; shown as \"Closed to new students\". Remove it when the program reopens.",
+      "type": "boolean"
+    },
     "source": {
       "description": "Where this information came from (a web page, or 'Submitted by <name>, <role>').",
       "type": "string",

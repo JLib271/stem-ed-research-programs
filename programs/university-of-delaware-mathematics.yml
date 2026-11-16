@@ -1,0 +1,21 @@
+id: university-of-delaware-mathematics
+institution:
+  name: University of Delaware
+  country: United States
+home_department: School of Education
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Dawn Berk
+  - name: Jinfa Cai
+  - name: Michelle Cirillo
+  - name: James Hiebert
+  - name: Charles Hohensee
+  - name: Amanda Jansen
+  - name: Erica Litke
+  - name: Anne Morris
+  - name: Jungeun Park
+url: https://www.education.udel.edu/doctoral/phd/math/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

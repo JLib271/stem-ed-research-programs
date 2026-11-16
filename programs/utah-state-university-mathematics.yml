@@ -1,0 +1,13 @@
+id: utah-state-university-mathematics
+institution:
+  name: Utah State University
+  country: United States
+home_department: Department of Mathematics and Statistics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Sindura Kularajan
+  - name: Brynja Kohler
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

@@ -1,0 +1,18 @@
+id: san-diego-state-university-mathematics
+institution:
+  name: San Diego State University
+  country: United States
+home_department: "Department of Mathematics and Statistics, with the University of California San Diego (joint doctoral program in Mathematics and Science Education)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Naneh Apkarian
+  - name: Victoria Delaney
+  - name: Susan Nickerson
+  - name: Mary Pilgrim
+  - name: Chris Rasmussen
+  - name: Daniel Reinholz
+  - name: William Zahner
+url: https://crmse.sdsu.edu/students/msed-2
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

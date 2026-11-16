@@ -1,0 +1,26 @@
+id: texas-state-university-mathematics
+institution:
+  name: Texas State University
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Jennifer Czocher
+  - name: Paul Dawkins
+  - name: Brittney Ellis
+  - name: Hamilton Hardison
+  - name: Hwa Young Lee
+  - name: Kristen Lew
+  - name: Kate Melhuish
+  - name: Bikai Nie
+  - name: Samuel Obara
+  - name: Cody Patterson
+  - name: Jessica Pierson-Bishop
+  - name: M. Alejandra Sorto
+  - name: Sharon Strickland
+  - name: Hiroko Warshauer
+  - name: Max Warshauer
+url: https://math.txstate.edu/programs-degrees/phd/faculty-research.html
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

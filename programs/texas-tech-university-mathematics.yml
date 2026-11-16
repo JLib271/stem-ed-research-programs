@@ -1,0 +1,12 @@
+id: texas-tech-university-mathematics
+institution:
+  name: Texas Tech University
+  country: United States
+home_department: "Department of Teacher Education, College of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Raymond Flores
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [degree_types, url]

@@ -1,0 +1,16 @@
+id: arizona-state-university-mathematics
+institution:
+  name: Arizona State University
+  country: United States
+home_department: School of Mathematical and Statistical Sciences
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Marilyn Carlson
+  - name: Fabio Milner
+  - name: Kyeong Hah Roh
+  - name: Patrick Thompson
+  - name: Carla van de Sande
+  - name: Dov Zazkis
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

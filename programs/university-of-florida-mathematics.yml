@@ -1,0 +1,15 @@
+id: university-of-florida-mathematics
+institution:
+  name: University of Florida
+  country: United States
+home_department: "School of Teaching and Learning, College of Education"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Thomasenia Lott Adams
+  - name: Kristen Apraiz
+  - name: Melissa Soto
+  - name: Richard Velasco
+url: https://education.ufl.edu/math-education/doctorate/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

@@ -1,0 +1,15 @@
+id: university-of-north-carolina-at-charlotte-mathematics
+institution:
+  name: University of North Carolina at Charlotte
+  country: United States
+home_department: "Department of Mathematics and Statistics, with the Cato College of Education (PhD in Curriculum and Instruction, urban mathematics education concentration)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Anthony Fernandes
+  - name: Allison McCulloch
+  - name: Michelle Stephan
+  - name: Travis Weiland
+url: https://academics.charlotte.edu/program/curriculum-and-instruction-urban-math-concentration-ph-d-on-campus/
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

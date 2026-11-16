@@ -1,0 +1,14 @@
+id: colorado-state-university-mathematics
+institution:
+  name: Colorado State University
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Joseph Antonides
+  - name: Kelly Chappell
+  - name: Jess Hagman
+  - name: Hortensia Soto
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

@@ -1,0 +1,15 @@
+id: university-of-arizona-mathematics
+institution:
+  name: University of Arizona
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Adi Adiredja
+  - name: Cynthia Anhalt
+  - name: Bruce Bayly
+url: https://web.math.arizona.edu/research/math-ed
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

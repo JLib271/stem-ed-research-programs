@@ -1,0 +1,13 @@
+id: university-of-oklahoma-mathematics
+institution:
+  name: University of Oklahoma
+  country: United States
+home_department: David and Judi Proctor Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Sepideh Stewart
+url: https://math.ou.edu/graduate
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty]

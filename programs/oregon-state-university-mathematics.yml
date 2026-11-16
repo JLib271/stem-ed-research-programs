@@ -1,0 +1,12 @@
+id: oregon-state-university-mathematics
+institution:
+  name: Oregon State University
+  country: United States
+home_department: Department of Mathematics
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: Elise Lockwood
+  - name: Mary Beisiegel
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16

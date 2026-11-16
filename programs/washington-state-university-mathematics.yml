@@ -1,0 +1,12 @@
+id: washington-state-university-mathematics
+institution:
+  name: Washington State University
+  country: United States
+home_department: "Department of Mathematics and Statistics, with the Department of Teaching and Learning (PhD in Mathematics and Science Education)"
+degree_types: [PhD]
+disciplines: [mathematics]
+faculty:
+  - name: David Slavit
+source: https://docs.google.com/spreadsheets/d/15ajDq_oIHz30JxyIGG8ZT54mY6WncSQQ
+last_verified: 2026-11-16
+needs_check: [faculty, home_department]
