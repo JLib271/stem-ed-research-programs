@@ -124,7 +124,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 | [Washington State University](https://smb.wsu.edu/academic-training/graduate-studies/phd-and-ms)<br><sub>United States</sub> | School of Molecular Biosciences (biochemistry) | MS, PhD | Chemistry | Erika Offerdahl |
 | [West Virginia University](https://www.chemistry.wvu.edu/research/chemical-education)<br><sub>United States</sub> | C. Eugene Bennett Department of Chemistry | MS, PhD | Chemistry | Tobi Odeleye, Michelle Richards-Babb, Stephanie Frost |
 | [Western Michigan University](https://wmich.edu/science/directory/petcovic)<br><sub>United States</sub> | Mallinson Institute for Science Education, with the Department of Geological and Environmental Sciences or the Department of Geography | MA, PhD | Earth Science | Heather Petcovic |
-| [Western Washington University](https://chemistry.wwu.edu/graduate-program)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Norda Stephenson |
+| [Western Washington University](https://chemistry.wwu.edu/graduate-program)<br><sub>United States</sub> | Department of Chemistry | MS | Chemistry | Erin Duffy, Norda Stephenson |
 | [Western Washington University](https://cse.wwu.edu/geology)<br><sub>United States</sub> | Geology Department, with Woodring College of Education | MS | Earth Science | Robyn Mieko Dahl, Sue DiBari, Scott Linneman |
 <!-- programs:end -->
 
