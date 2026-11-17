@@ -56,6 +56,7 @@ body:
         - Physics
         - Science & Health Communication (including risk and climate communication, public engagement, and science journalism)
         - Science Education
+        - "STEAM: Arts+STEM"
         - Other (say which below)
     validations:
       required: true
