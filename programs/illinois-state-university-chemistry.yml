@@ -3,7 +3,7 @@ institution:
   name: Illinois State University
   country: United States
 home_department: Department of Chemistry
-degree_types: [MS]
+degree_types: [MS, MA]
 disciplines: [chemistry]
 faculty:
   - name: Sarah Boesdorfer

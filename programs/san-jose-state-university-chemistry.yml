@@ -3,7 +3,7 @@ institution:
   name: San Jose State University
   country: United States
 home_department: Department of Chemistry
-degree_types: [MA]
+degree_types: [MA, MS]
 disciplines: [chemistry]
 faculty:
   - name: Resa Kelly

@@ -3,7 +3,7 @@ institution:
   name: Missouri State University
   country: United States
 home_department: Department of Chemistry and Biochemistry
-degree_types: [MS, MEd]
+degree_types: [MEd]
 disciplines: [chemistry]
 faculty:
   - name: Gautam Bhattacharyya
@@ -11,4 +11,3 @@ faculty:
 url: https://chemistry.missouristate.edu/graduateeducation/
 source: https://www.google.com/maps/d/viewer?mid=1tOLvDVfZSSPT4gs00RcV1-adN2o
 last_verified: 2026-11-16
-needs_check: [degree_types]

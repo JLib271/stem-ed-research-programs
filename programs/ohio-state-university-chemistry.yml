@@ -3,7 +3,7 @@ institution:
   name: Ohio State University
   country: United States
 home_department: Department of Chemistry and Biochemistry
-degree_types: [PhD]
+degree_types: [MS, PhD]
 disciplines: [chemistry]
 faculty:
   - name: Josie Nardo
