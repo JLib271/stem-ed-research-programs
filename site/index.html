@@ -128,10 +128,10 @@
       <li><strong>Program faculty</strong>, people who agree to be listed</li>
     </ol>
     <p class="actions">
-      <a class="btn" id="mail-add" href="#">Email the details</a>
+      <a class="btn" href="https://stemedplus.org/contact-us/">Use the contact form</a>
       <a class="btn secondary" href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=add_program.yml">Use the GitHub form</a>
     </p>
-    <p class="small">The email button opens a message with the five questions filled in. The GitHub form needs a free GitHub account.</p>
+    <p class="small">The contact form is on stemedplus.org: include the five details above. The GitHub form needs a GitHub account.</p>
     <h3>Update a listing</h3>
     <p>Every program card has an <strong>Update this listing</strong> link. Use it to:</p>
     <ul class="steps">
@@ -140,7 +140,7 @@
       <li>add a faculty member, or remove yourself</li>
       <li>remove a program that no longer exists (programs not taking students stay listed)</li>
     </ul>
-    <p>It offers the same two choices: an email that already contains the current listing, so you only edit what's wrong, or the <a href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=update_program.yml">GitHub update form</a>.</p>
+    <p>It offers the same two choices: our <a href="https://stemedplus.org/contact-us/">contact form</a> (name the program and say what to change), or the <a href="https://github.com/JLib271/stem-ed-research-programs/issues/new?template=update_program.yml">GitHub update form</a>.</p>
     <p class="small">Everything is reviewed before it appears.</p>
   </div>
 </section>
@@ -164,7 +164,7 @@
 <script>
 (function () {
   var state = { data: null };
-  var MAINTAINER = 'libarkin@msu.edu', REPO = 'https://github.com/JLib271/stem-ed-research-programs';
+  var REPO = 'https://github.com/JLib271/stem-ed-research-programs';
   var el = function (id) { return document.getElementById(id); };
   function text(tag, cls, value) { var n = document.createElement(tag); if (cls) n.className = cls; n.textContent = value; return n; }
   function fill(select, values, labels) {
@@ -215,7 +215,7 @@
       var upd = document.createElement('details'); upd.className = 'upd';
       upd.appendChild(text('summary', '', 'Update this listing'));
       var opts = document.createElement('div');
-      var m = text('a', '', 'Email a correction'); m.href = updateMail(p);
+      var m = text('a', '', 'Use the contact form'); m.href = 'https://stemedplus.org/contact-us/';
       var g = text('a', '', 'Use the GitHub form'); g.href = updateIssue(p); g.rel = 'noopener';
       opts.appendChild(m); opts.appendChild(document.createTextNode(' · ')); opts.appendChild(g);
       upd.appendChild(opts); meta.appendChild(upd);
@@ -250,11 +250,6 @@
       'Program faculty: ' + p.faculty.map(function (f) { return f.name; }).join(', '),
       'Web page: ' + (p.url || '(none)')]
       .concat(p.closed_to_new_students ? ['Closed to new students'] : []).join('\n');
-  }
-  function updateMail(p) {
-    var body = 'Listing: ' + p.id + '\n\nWhat would you like to do? (correct a detail / confirm it is still correct / add or remove a faculty member / remove the program because it no longer exists)\n\n' +
-      'Current listing (edit anything that is wrong):\n\n' + listingText(p) + '\n\nHow you know (e.g., I am faculty there):\n';
-    return 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('Update a listing: ' + p.institution.name) + '&body=' + encodeURIComponent(body);
   }
   function updateIssue(p) {
     return REPO + '/issues/new?template=update_program.yml&title=' + encodeURIComponent('Update: ' + p.institution.name) +
@@ -320,7 +315,6 @@
     var body = ['Institution and country:', 'Home department:', 'Degrees (e.g., MS, PhD):',
       'Discipline (' + Object.keys(d.disciplines).map(function (x) { return d.disciplines[x]; }).join(', ') + '):',
       'Program faculty (who agree to be listed):', 'Program or group web page (optional):', 'How you know this (e.g., I am faculty there):'].join('\n\n');
-    el('mail-add').href = 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('Add a program: STEM+ Education Research Graduate Programs') + '&body=' + encodeURIComponent(body + '\n');
     fill(el('degree'), order.filter(function (x) { return degs[x]; }));
     fill(el('country'), Object.keys(ctrys).sort());
     ['q', 'discipline', 'degree', 'country'].forEach(function (id) { el(id).addEventListener('input', render); });
