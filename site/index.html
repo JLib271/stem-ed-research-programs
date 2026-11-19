@@ -325,6 +325,7 @@
     fill(el('country'), Object.keys(ctrys).sort());
     ['q', 'discipline', 'degree', 'country'].forEach(function (id) { el(id).addEventListener('input', render); });
     render();
+    if (location.hash === '#add') el('add').scrollIntoView();
   }).catch(function () {
     el('count').textContent = 'The program list could not be loaded.';
   });
