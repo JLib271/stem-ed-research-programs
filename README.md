@@ -193,7 +193,7 @@ _Generated from `programs/` by `scripts/build.py`; edit the program files, not t
 
 Connect with STEM+ education researchers and practitioners on
 [STEMEd+ Commons](https://stemedplus.hcommons.org/), an open professional network for
-STEM+ teaching and research: join discussion groups and share your work.
+STEM+ teaching and STEM+ education research: join discussion groups and share your work.
 
 ## Lists maintained elsewhere
 
